@@ -1,0 +1,14 @@
+.mainWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 1.709vw;
+	gap: 8.333vw;
+}
+
+.wrapperUTP {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.083vw;
+}

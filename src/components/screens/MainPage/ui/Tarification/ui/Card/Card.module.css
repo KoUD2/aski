@@ -1,0 +1,105 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	width: 22.917vw;
+	height: 35.26vw;
+	padding: 0vw 0.052vw;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.667vw;
+	border-radius: 0.625vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	backdrop-filter: blur(0.521vw);
+	overflow: hidden;
+}
+
+.wrapperHeader {
+	display: flex;
+	width: 22.917vw;
+	height: 12.865vw;
+	padding: 1.667vw 1.719vw;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.833vw;
+	flex-shrink: 0;
+}
+
+.headerName {
+	color: #fff;
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 1.667vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%; /* 2vw */
+	letter-spacing: -0.019vw;
+}
+
+.headerPrice {
+	color: #fff;
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 1.667vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: -0.019vw;
+}
+
+.headerDesc {
+	color: #858585;
+	width: 19.279vw;
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.headerButton {
+	cursor: pointer;
+	outline: none;
+	display: flex;
+	width: 19.583vw;
+	height: 2.708vw;
+	padding: 0.885vw 2.813vw;
+	justify-content: center;
+	align-items: center;
+	gap: 0.521vw;
+	border-radius: 0.625vw;
+	background: var(--white, #fff);
+	color: var(--almost_black, #0c0c0c);
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 0.781vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.circle {
+	position: absolute;
+	width: 19.436vw;
+	height: 19.436vw;
+	border-radius: 19.436vw;
+	background: var(--accent, #0638bd);
+	filter: blur(5.208vw);
+	bottom: -13.603vw;
+}
+
+.wrapperPrice {
+	display: flex;
+	align-items: center;
+	gap: 0.208vw;
+}
+
+.periodText {
+	color: var(--white, #fff);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}

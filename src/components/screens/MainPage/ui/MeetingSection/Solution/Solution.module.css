@@ -1,0 +1,90 @@
+.wrapper {
+	margin-top: 6.25vw;
+	display: flex;
+	flex-direction: column;
+	gap: 2.813vw;
+}
+
+.title {
+	color: var(--main-text);
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 3.333vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 90%;
+	letter-spacing: -0.026vw;
+}
+
+.cards {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.042vw;
+	align-self: stretch;
+}
+
+.card {
+	display: flex;
+	width: 22.917vw;
+	padding: 1.667vw;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.833vw;
+	border-radius: 0.625vw;
+	background: var(--card_bg);
+}
+
+.cardImg {
+	width: 19.635vw;
+	height: 21.042vw;
+}
+
+.wrapperText {
+	display: flex;
+	flex-direction: column;
+	gap: 0.417vw;
+}
+
+.cardTitle {
+	color: var(--main-text);
+	font-family: 'Inter Tight';
+	font-size: 1.667vw;
+	font-style: normal;
+	font-weight: 500;
+	width: 21.26vw;
+	line-height: 120%;
+	letter-spacing: -0.019vw;
+}
+
+.cardText {
+	color: var(--main-text);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+	width: 19.417vw;
+}
+
+.wrapperMiniCards {
+	display: flex;
+	width: 22.917vw;
+	height: 31.563vw;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cardMiniImg {
+	width: 4.427vw;
+	height: 4.635vw;
+}
+
+.minCards {
+	display: flex;
+	height: 15.313vw;
+	padding: 1.667vw;
+	flex-direction: column;
+	gap: 1.302vw;
+	border-radius: 0.625vw;
+	background: var(--card_bg);
+}

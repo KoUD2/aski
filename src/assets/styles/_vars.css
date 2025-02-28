@@ -1,0 +1,9 @@
+:root {
+	--main-text: #fff;
+	--desc-text: rgba(255, 255, 255, 0.5);
+	--accent: #0638bd;
+	--almost-black: #0c0c0c;
+	--card_bg: rgba(92, 92, 92, 0.15);
+	--dark_gray_stroke: #2e2e2e;
+	--gray: #858585;
+}

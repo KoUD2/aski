@@ -1,0 +1,12 @@
+@import './_reset';
+@import './_vars';
+@import './fonts';
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--almost-black);
+}

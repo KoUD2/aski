@@ -1,0 +1,129 @@
+.wrapper {
+	display: flex;
+	width: 70.833vw;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.833vw;
+}
+
+.wrapperHeader {
+	position: relative;
+	overflow: hidden;
+	padding: 0 1.667vw;
+	width: 70.833vw;
+	height: 4.688vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 0.625vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.circle {
+	position: absolute;
+	top: -0.372vw;
+	width: 70.833vw;
+	height: 70.833vw;
+	border-radius: 70.833vw;
+	background: var(--accent, #0638bd);
+	filter: blur(5.208vw);
+	z-index: -10;
+}
+
+.leftFirst {
+	width: 12.141vw;
+}
+.leftSecond {
+	width: 5.218vw;
+}
+.leftThird {
+	width: 6.659vw;
+}
+.leftFourth {
+	width: 6.818vw;
+}
+
+.title {
+	color: var(--white, #fff);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.wrapperButtons {
+	display: flex;
+	width: fit-content;
+	padding: 0.417vw;
+	justify-content: center;
+	align-items: center;
+	gap: 0.625vw;
+	border-radius: 0.833vw;
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	backdrop-filter: blur(0.781vw);
+}
+.button {
+	cursor: pointer;
+	display: flex;
+	background: transparent;
+	height: 2.188vw;
+	padding: 0.417vw 1.25vw;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.625vw;
+	border: none;
+	outline: none;
+	color: #f0f0f0;
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 0.781vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+}
+
+.activeButton {
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperAllTarification {
+	display: flex;
+	padding: 1.667vw;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-self: stretch;
+	border-radius: 0.625vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperStatements {
+	display: flex;
+	flex-direction: column;
+	gap: 1.667vw;
+}
+
+.statementGray {
+	color: var(--gray, #858585);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.statementWhite {
+	color: var(--white, #fff);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.statementImg {
+	width: 1.25vw;
+	height: 1.25vw;
+}

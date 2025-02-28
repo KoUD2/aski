@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8.333vw;
+	padding-bottom: 1.709vw;
+}
+
+.wrapperHeadInfo {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.042vw;
+	margin-top: -26vw;
+}
+
+.accent {
+	color: var(--main-text);
+}
+
+.addWrapper {
+	margin: 0;
+}

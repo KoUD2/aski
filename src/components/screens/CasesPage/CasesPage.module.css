@@ -1,0 +1,35 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8.333vw;
+	padding-bottom: 1.709vw;
+}
+
+.wrapperCards {
+	display: flex;
+	width: 71.033vw;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 1.042vw;
+	flex-wrap: wrap;
+	margin-top: -25.333vw;
+}
+
+.textCase {
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.textCaseActive {
+	color: #fff;
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}

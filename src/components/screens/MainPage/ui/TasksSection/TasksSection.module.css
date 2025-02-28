@@ -1,0 +1,15 @@
+.wrapperSections {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.083vw;
+}
+
+.imgPageMeetings {
+	width: 70.786vw;
+	height: 39.817vw;
+}
+
+.accent {
+	color: var(--main-text);
+}

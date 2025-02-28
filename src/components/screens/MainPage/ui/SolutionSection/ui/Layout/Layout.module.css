@@ -1,0 +1,90 @@
+.wrapper {
+	display: flex;
+	height: 37.635vw;
+	width: fit-content;
+	padding: 1.181vw;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 1.181vw;
+	border: 0.037vw solid var(--dark_gray_stroke);
+	background: var(--almost_black);
+}
+
+.wrapperHead {
+	display: flex;
+	width: 8.228vw;
+	flex-direction: column;
+	gap: 3.69vw;
+}
+
+.logo {
+	width: 3.026vw;
+	height: 1.476vw;
+}
+
+.wrapperLinks {
+	display: flex;
+	flex-direction: column;
+	gap: 0.886vw;
+}
+
+.wrapperLink {
+	display: flex;
+	align-items: center;
+	gap: 0.221vw;
+}
+
+.icon {
+	width: 0.886vw;
+	height: 0.886vw;
+}
+
+.linkText {
+	color: var(--gray);
+	font-family: 'Inter Tight';
+	font-size: 0.553vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+}
+
+.linkTextActive {
+	color: var(--main-text);
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	gap: 0.295vw;
+}
+
+.avatar {
+	width: 1.771vw;
+	height: 1.771vw;
+	border-radius: 34.004px;
+	border: 0.037vw solid var(--white, #fff);
+}
+
+.naming {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.443vw;
+}
+
+.name {
+	color: var(--main-text);
+	font-family: 'Inter Tight';
+	font-size: 0.664vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 110%;
+}
+.positioning {
+	color: var(--gray);
+	font-family: 'Inter Tight';
+	font-size: 0.553vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+}

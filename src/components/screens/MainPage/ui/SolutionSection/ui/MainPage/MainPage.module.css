@@ -1,0 +1,136 @@
+.contentWrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	z-index: -2;
+	display: flex;
+	width: 70.842vw;
+	height: 39.849vw;
+	border-radius: 2.132vw;
+	border: 0.067vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--almost_black, #0c0c0c);
+	align-items: center;
+	padding: 1.107vw;
+}
+
+.circle {
+	width: 29.518vw;
+	height: 29.518vw;
+	border-radius: 29.518vw;
+	background: var(--accent);
+	filter: blur(4.612vw);
+	position: absolute;
+	z-index: 1;
+}
+
+.cardsWrapper {
+	display: flex;
+	align-items: center;
+	position: relative;
+	gap: 0.738vw;
+	z-index: 2;
+}
+
+.recording {
+	display: flex;
+	width: 22.728vw;
+	height: 15.497vw;
+	padding: 1.181vw;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 1.181vw;
+	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--almost_black, #0c0c0c);
+}
+
+.recordingImg {
+	width: 1.476vw;
+	height: 1.476vw;
+}
+
+.recordingText {
+	color: var(--main-text);
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 0.59vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	text-align: left;
+}
+
+.wrapperMiniCards {
+	display: flex;
+	flex-direction: column;
+	gap: 0.738vw;
+}
+
+.miniCard {
+	display: flex;
+	width: 10.368vw;
+	height: 7.379vw;
+	padding: 1.181vw;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 1.181vw;
+	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--almost_black, #0c0c0c);
+}
+
+.aiImg {
+	width: 1.033vw;
+	height: 1.475vw;
+}
+
+.planImg {
+	width: 1.476vw;
+	height: 1.476vw;
+}
+
+.wrapperBalance {
+	position: absolute;
+	top: 2.713vw;
+	right: 7.007vw;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.148vw;
+	z-index: 2;
+}
+
+.balanceText {
+	color: #858585;
+	font-family: 'Inter Tight';
+	font-size: 0.553vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+}
+
+.balanceContainer {
+	display: flex;
+	width: 3.579vw;
+	height: 1.254vw;
+	padding: 0.148vw 0.258vw;
+	justify-content: center;
+	align-items: center;
+	gap: 0.369vw;
+	border-radius: 1.181vw;
+	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.balance {
+	color: var(--main-text);
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 0.553vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+}

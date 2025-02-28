@@ -1,0 +1,29 @@
+.wrapper {
+	position: relative;
+	width: 34.896vw;
+	height: 27.24vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.667vw;
+	overflow: hidden;
+}
+
+.img {
+	position: absolute;
+	background-size: cover;
+	width: 34.896vw;
+	height: 27.24vw;
+	z-index: -10;
+}
+
+.text {
+	color: var(--white, #fff);
+	font-family: 'Inter Tight';
+	font-size: 1.667vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: -0.019vw;
+	width: 22.897vw;
+}

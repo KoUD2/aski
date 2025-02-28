@@ -1,0 +1,15 @@
+.mainPage {
+	display: flex;
+	flex-direction: column;
+	gap: 2.083vw;
+	align-items: center;
+}
+
+.accent {
+	color: var(--main-text);
+}
+
+.mainPageSection {
+	width: 70.842vw;
+	height: 39.849vw;
+}

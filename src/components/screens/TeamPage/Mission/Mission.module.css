@@ -1,0 +1,27 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.813vw;
+}
+
+.missionTitle {
+	color: #fff;
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 3.333vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 90%; /* 3vw */
+	letter-spacing: -0.026vw;
+}
+
+.wrapperCards {
+	display: flex;
+	align-items: center;
+	gap: 1.042vw;
+}
+
+.cardImg {
+	margin-left: -0.8vw;
+}

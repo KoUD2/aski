@@ -1,0 +1,28 @@
+.wrapper {
+	display: flex;
+	width: 34.896vw;
+	padding: 1.563vw 1.25vw;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.042vw;
+	border-radius: 0.625vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.img {
+	display: flex;
+	width: 2.656vw;
+	height: 2.552vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	color: #fff;
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw; /* 140% */
+}

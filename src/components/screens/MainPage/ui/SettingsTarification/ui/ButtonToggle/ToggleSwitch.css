@@ -1,0 +1,33 @@
+.toggle {
+	width: 2.656vw;
+	height: 1.615vw;
+	background: #555;
+	border-radius: 0.977vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 0.104vw;
+	transition: background 0.3s;
+	border: none;
+	cursor: pointer;
+}
+
+.toggle.enabled {
+	background: #9092e3;
+}
+
+.slider {
+	width: 1.406vw;
+	height: 1.406vw;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 0.154vw;
+	transition: transform 0.3s;
+	filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.06))
+		drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
+}
+
+.toggle.enabled .slider {
+	transform: translateX(1vw);
+}

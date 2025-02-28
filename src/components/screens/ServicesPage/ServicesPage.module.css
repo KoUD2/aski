@@ -1,0 +1,214 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8.333vw;
+	padding-bottom: 1.667vw;
+}
+
+.desc {
+	width: 21.903vw;
+}
+
+.wrapperContent {
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 1.042vw;
+	flex-wrap: wrap;
+	overflow: hidden;
+	width: 70.933vw;
+	margin-top: -26vw;
+}
+
+.mainTitle {
+	color: #fff;
+	font-family: 'Inter Tight';
+	font-size: 1.667vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: -0.019vw;
+}
+
+.mainDesc {
+	color: var(--white-50, rgba(255, 255, 255, 0.5));
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw; /* 140% */
+}
+
+.wrapperDesc {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.042vw;
+	align-self: stretch;
+}
+
+.wrapperCardContent {
+	display: flex;
+	width: 22.917vw;
+	height: 37.5vw;
+	padding: 1.667vw;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-shrink: 0;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	overflow: hidden;
+}
+
+.warapperImages {
+	display: flex;
+	flex-direction: column;
+	gap: 1.042vw;
+	border-radius: 1.042vw;
+	padding: 0.625vw 0 0.625vw 1.25vw;
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.warapperImagesContent {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.625vw;
+}
+
+.imageCrm {
+	width: 1.823vw;
+	height: 1.823vw;
+}
+
+.textCrm {
+	color: var(--white, #fff);
+	font-family: 'Inter Tight';
+	font-size: 0.781vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+}
+
+.warapperImagesContentActive {
+	width: 43.692vw;
+	height: 2.865vw;
+	border-radius: 0.625vw;
+	background: var(--white-20-hover, rgba(255, 255, 255, 0.2));
+	align-items: center;
+	display: flex;
+	margin-left: -0.622vw;
+	padding-left: 0.622vw;
+}
+
+.wrapperCard2 {
+	display: flex;
+	height: 18.125vw;
+	padding: 1.667vw;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-self: stretch;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	width: 22.917vw;
+}
+
+.imageCard2 {
+	width: 2.813vw;
+	height: 2.813vw;
+}
+
+.wrapperCard3 {
+	display: flex;
+	height: 18.542vw;
+	padding: 1.667vw;
+	width: 22.917vw;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2.083vw;
+	align-self: stretch;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperCard2Card3 {
+	display: flex;
+	width: 22.917vw;
+	flex-direction: column;
+	gap: 1.042vw;
+}
+
+.wrapperCard4 {
+	display: flex;
+	height: 11.094vw;
+	padding: 1.667vw;
+	align-items: flex-start;
+	align-self: stretch;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperCard4Card5Card6 {
+	display: flex;
+	width: 22.917vw;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.042vw;
+	flex-shrink: 0;
+}
+
+.wrapperCard5 {
+	display: flex;
+	height: 13.229vw;
+	padding: 1.667vw;
+	align-items: flex-start;
+	gap: 4.809vw;
+	align-self: stretch;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperCard6 {
+	display: flex;
+	height: 11.51vw;
+	padding: 1.667vw;
+	align-items: flex-start;
+	align-self: stretch;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperCard7Card8 {
+	display: flex;
+	align-items: center;
+	gap: 1.042vw;
+}
+
+.wrapperCard7 {
+	display: flex;
+	width: 34.896vw;
+	padding: 1.667vw;
+	align-items: flex-start;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.wrapperImagesCrm {
+	display: flex;
+	align-items: center;
+	gap: 1.25vw;
+}
+
+.imageCrmBlock {
+	width: 2.813vw;
+	height: 2.813vw;
+}

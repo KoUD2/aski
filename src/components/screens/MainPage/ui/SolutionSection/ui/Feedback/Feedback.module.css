@@ -1,0 +1,106 @@
+.wrapper {
+	margin-top: 6.25vw;
+	width: 70.833vw;
+	display: flex;
+	padding: 5.156vw 5.99vw;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.person {
+	display: flex;
+	gap: 0.625vw;
+}
+
+.personImg {
+	width: 3.75vw;
+	height: 3.75vw;
+	border-radius: 100%;
+}
+
+.wrapperInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 0.625vw;
+	width: 19.531vw;
+}
+
+.infoHeader {
+	color: #f0f0f0;
+	font-family: 'Inter Tight';
+	font-size: 1.667vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: -0.019vw;
+}
+
+.infoText {
+	color: var(--desc-text);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.wrapperText {
+	display: flex;
+	width: 29.271vw;
+	height: 14.688vw;
+	justify-content: center;
+	align-items: center;
+	gap: 1.406vw;
+}
+
+.quotes {
+	display: flex;
+	width: 1.719vw;
+	height: 14.688vw;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 0.521vw;
+}
+
+.quote {
+	color: var(--main-text);
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-size: 3.854vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 90%;
+}
+
+.quotesSecond {
+	display: flex;
+	width: 1.719vw;
+	height: 14.688vw;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.521vw;
+	flex-shrink: 0;
+}
+
+.quoteSecond {
+	color: var(--main-text);
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-size: 3.854vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 90%;
+}
+
+.quoteText {
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}

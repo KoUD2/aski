@@ -1,0 +1,52 @@
+.header {
+	position: absolute;
+	top: 2.083vw;
+	display: inline-flex;
+	align-items: center;
+	gap: 17.656vw;
+}
+
+.logo {
+	width: 4.271vw;
+	height: 2.083vw;
+}
+
+.linksWrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 3.209vw;
+}
+
+.link {
+	color: var(--main-text);
+	text-decoration: none;
+	font-family: 'Inter Tight';
+	font-size: 0.781vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.button {
+	cursor: pointer;
+	display: flex;
+	width: 9.375vw;
+	height: 2.708vw;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.625vw;
+	background: var(--main-text);
+	border: none;
+	outline: none;
+	color: var(--almost-black);
+	text-align: center;
+	font-family: 'Inter Tight', serif;
+	font-size: 0.781vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.activeLink {
+	color: var(--additional_violet, #9092e3);
+}
