@@ -96,7 +96,7 @@ const SettingsTarification: FC = () => {
 		totalPrice *= multiplier
 
 		return Number(state.planDuration) * totalPrice
-	}, [state, activeButton])
+	}, [state, activeButton, basePrice])
 
 	console.log('Current selectedMiddleCards:', state.selectedMiddleCards)
 
