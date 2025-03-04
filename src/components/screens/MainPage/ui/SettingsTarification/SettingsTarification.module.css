@@ -50,6 +50,34 @@
 	background: var(--card_bg, rgba(92, 92, 92, 0.15));
 }
 
+.wrapperPriceButton {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: stretch;
+}
+
+.buttonBought {
+	cursor: pointer;
+	display: flex;
+	width: 9.375vw;
+	height: 2.708vw;
+	justify-content: center;
+	align-items: center;
+	gap: 0.521vw;
+	border-radius: 0.625vw;
+	background: var(--accent, #0638bd);
+	color: var(--white, #fff);
+	text-align: center;
+	font-family: 'Inter Tight';
+	font-size: 0.781vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	border: none;
+	outline: none;
+}
+
 .wrapperBigCardHead {
 	display: flex;
 	flex-direction: column;

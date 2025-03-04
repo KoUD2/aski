@@ -136,9 +136,13 @@ const SettingsTarification: FC = () => {
 							</button>
 						</div>
 					</div>
-					<div className={styles.wrapperPrice}>
-						<p className={styles.priceText}>{Math.round(price)}₽</p>
-						<p className={styles.pricePeriod}>/месяц</p>
+					<div className={styles.wrapperPriceButton}>
+						<div className={styles.wrapperPrice}>
+							<p className={styles.priceText}>{Math.round(price)}₽</p>
+							<p className={styles.pricePeriod}>/месяц</p>
+						</div>
+
+						<button className={styles.buttonBought}>Купить</button>
 					</div>
 				</div>
 				<div className={styles.wrapperMiniCards}>
