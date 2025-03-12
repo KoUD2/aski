@@ -260,24 +260,6 @@ const PlansPage: FC = () => {
 									alt='Описание тарифа'
 									className={styles.statementImg}
 								/>
-								<p className={styles.statementText}>Интеграция с AmoCRM</p>
-							</div>
-							<div className={styles.wrapperStatement}>
-								<Image
-									src={CircleCheck}
-									alt='Описание тарифа'
-									className={styles.statementImg}
-								/>
-								<p className={styles.statementText}>
-									Интеграция в Яндекс Трекер
-								</p>
-							</div>
-							<div className={styles.wrapperStatement}>
-								<Image
-									src={CircleCheck}
-									alt='Описание тарифа'
-									className={styles.statementImg}
-								/>
 								<p className={styles.statementText}>
 									Персональный менеджер-консультант
 								</p>

@@ -71,7 +71,6 @@
 .button {
 	cursor: pointer;
 	display: flex;
-	width: 9.375vw;
 	height: 2.708vw;
 	padding: 0.885vw 2.24vw;
 	justify-content: center;
@@ -101,7 +100,7 @@
 .mainInfo {
 	margin-top: 7.813vw;
 	width: 39.844vw;
-	color: var(--desc-text);
+	color: rgba(255, 255, 255, 0.3);
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-style: normal;

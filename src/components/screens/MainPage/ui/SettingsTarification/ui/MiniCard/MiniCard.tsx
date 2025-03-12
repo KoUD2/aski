@@ -1,3 +1,5 @@
+'use client'
+
 import AddPlus from '@/shared/images/AddPlus.svg'
 import RemoveMinus from '@/shared/images/Remove_Minus.svg'
 import cn from 'classnames'

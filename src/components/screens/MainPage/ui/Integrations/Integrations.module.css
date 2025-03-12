@@ -71,9 +71,9 @@
 	border: none;
 	outline: none;
 	display: flex;
-	width: 9.375vw;
 	height: 2.708vw;
-	padding: 1.198vw 2.813vw;
+	width: 11.667vw;
+	padding: 0.885vw 1.25vw;
 	justify-content: center;
 	align-items: center;
 	gap: 0.208vw;
@@ -89,11 +89,6 @@
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
-}
-
-.integrationButtonImg {
-	width: 1.25vw;
-	height: 1.25vw;
 }
 
 .integrationTextGrey {

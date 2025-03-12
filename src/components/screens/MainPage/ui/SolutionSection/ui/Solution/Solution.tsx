@@ -1,7 +1,7 @@
-import DataBaseSolution from '@/shared/images/DataBaseSolution.svg'
-import IntegrationsSolution from '@/shared/images/IntegrationsSolution.png'
+import SummaryBase from '@/shared/images/SummaryBase.svg'
 import SummarySolution from '@/shared/images/SummarySolution.svg'
 import TranscribeSolution from '@/shared/images/TranscribeSolution.svg'
+import cn from 'classnames'
 import Image from 'next/image'
 import { FC } from 'react'
 import styles from './Solution.module.css'
@@ -12,7 +12,12 @@ const Solution: FC = () => {
 			<h2 className={styles.title}>У aski есть решение</h2>
 			<div className={styles.cards}>
 				<div className={styles.card}>
-					<Image src={SummarySolution} alt='' className={styles.cardImg} />
+					<Image
+						src={SummarySolution}
+						alt=''
+						className={styles.cardImg}
+						draggable={false}
+					/>
 					<div className={styles.wrapperText}>
 						<h3 className={styles.cardTitle}>Конспект встречи</h3>
 						<p className={styles.cardText}>
@@ -22,7 +27,12 @@ const Solution: FC = () => {
 					</div>
 				</div>
 				<div className={styles.card}>
-					<Image src={TranscribeSolution} alt='' className={styles.cardImg} />
+					<Image
+						src={TranscribeSolution}
+						alt=''
+						className={styles.cardImg}
+						draggable={false}
+					/>
 					<div className={styles.wrapperText}>
 						<h3 className={styles.cardTitle}>Точный транскрипт</h3>
 						<p className={styles.cardText}>
@@ -32,33 +42,18 @@ const Solution: FC = () => {
 						</p>
 					</div>
 				</div>
-				<div className={styles.wrapperMiniCards}>
-					<div className={styles.minCards}>
-						<Image
-							src={DataBaseSolution}
-							alt=''
-							className={styles.cardMiniImg}
-						/>
-						<div className={styles.wrapperText}>
-							<h3 className={styles.cardTitle}>База данных</h3>
-							<p className={styles.cardText}>
-								Удобное сохранение конспектов в единую базу данных
-							</p>
-						</div>
-					</div>
-					<div className={styles.minCards}>
-						<Image
-							src={IntegrationsSolution}
-							alt=''
-							className={styles.cardMiniImg}
-						/>
-						<div className={styles.wrapperText}>
-							<h3 className={styles.cardTitle}>Интеграции</h3>
-							<p className={styles.cardText}>
-								Автоматическая рассылка конспектов в&nbsp;Telegram
-								и&nbsp;интеграция с&nbsp;CRM
-							</p>
-						</div>
+				<div className={cn(styles.card, styles.cardBig)}>
+					<Image
+						src={SummaryBase}
+						alt=''
+						className={styles.cardImg}
+						draggable={false}
+					/>
+					<div className={styles.wrapperText}>
+						<h3 className={styles.cardTitle}>База знаний</h3>
+						<p className={styles.cardText}>
+							Удобное сохранение конспектов в единую базу знаний
+						</p>
 					</div>
 				</div>
 			</div>

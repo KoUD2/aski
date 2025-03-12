@@ -1,14 +1,11 @@
 import Footer from '@/components/ui/Footer/Footer'
-import amoBlock from '@/shared/images/amoBlock.png'
 import askiFav from '@/shared/images/askiFav.png'
 import GoogleMeat from '@/shared/images/GoogleMeat.png'
 import mts from '@/shared/images/mts.png'
-import notionBlock from '@/shared/images/notionBlock.png'
 import SberJazz from '@/shared/images/SberJazz.png'
+import ShortTextsImage from '@/shared/images/ShortTextsImage.svg'
 import Teams from '@/shared/images/Teams.png'
 import Tele from '@/shared/images/Tele.png'
-import trackerBlock from '@/shared/images/trackerBlock.png'
-import yoBlock from '@/shared/images/yoBlock.png'
 import zoomI from '@/shared/images/zoomI.png'
 import Image from 'next/image'
 import { FC } from 'react'
@@ -82,43 +79,6 @@ const ServicesPage: FC = () => {
 					</div>
 
 					<div className={styles.wrapperCard3}>
-						<div className={styles.wrapperImagesCrm}>
-							<Image src={amoBlock} alt='' className={styles.imageCrmBlock} />
-							<Image
-								src={trackerBlock}
-								alt=''
-								className={styles.imageCrmBlock}
-							/>
-							<Image src={yoBlock} alt='' className={styles.imageCrmBlock} />
-							<Image
-								src={notionBlock}
-								alt=''
-								className={styles.imageCrmBlock}
-							/>
-						</div>
-						<div className={styles.wrapperDesc}>
-							<h1 className={styles.mainTitle}>Интеграции с CRM и Notion</h1>
-							<p className={styles.mainDesc}>
-								Автоматизируйте рутинные задачи! Aski переносит данные из
-								созвонов в вашу CRM-систему и в Notion, экономя время отдела
-								продаж и проектных менеджеров
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div className={styles.wrapperCard4Card5Card6}>
-					<div className={styles.wrapperCard4}>
-						<div className={styles.wrapperDesc}>
-							<h1 className={styles.mainTitle}>Aski AI в Telegram</h1>
-							<p className={styles.mainDesc}>
-								Получите доступ к возможностям Aski AI прямо в Telegram-чате с
-								командой
-							</p>
-						</div>
-					</div>
-
-					<div className={styles.wrapperCard5}>
 						<div className={styles.wrapperDesc}>
 							<h1 className={styles.mainTitle}>Планирование встреч</h1>
 							<p className={styles.mainDesc}>
@@ -128,25 +88,30 @@ const ServicesPage: FC = () => {
 							</p>
 						</div>
 					</div>
+				</div>
 
-					<div className={styles.wrapperCard6}>
-						<div className={styles.wrapperDesc}>
-							<h1 className={styles.mainTitle}>Конспекты встреч</h1>
-							<p className={styles.mainDesc}>
-								Используйте один из 12 готовых шаблонов конспекта, и Aski
-								автоматически заполнит его на основе записи встречи
-							</p>
-						</div>
+				<div className={styles.wrapperCard4Card5Card6}>
+					<div className={styles.wrapperDesc}>
+						<h1 className={styles.mainTitle}>Конспекты встреч</h1>
+						<p className={styles.mainDesc}>
+							Используйте один из 12 готовых шаблонов конспекта, и Aski
+							автоматически заполнит его на основе записи встречи
+						</p>
 					</div>
+					<Image
+						src={ShortTextsImage}
+						alt=''
+						className={styles.shortTextsImage}
+					></Image>
 				</div>
 
 				<div className={styles.wrapperCard7Card8}>
 					<div className={styles.wrapperCard7}>
 						<div className={styles.wrapperDesc}>
-							<h1 className={styles.mainTitle}>Фиксация в мессенджерах</h1>
+							<h1 className={styles.mainTitle}>Интеграция с Notion</h1>
 							<p className={styles.mainDesc}>
-								Aski выделит и зафиксирует самые важные моменты из вашей
-								переписки, чтобы ни одна ценная идея не была упущена
+								Автоматически переносите задачи, краткие выжимки и транскрипты
+								встреч из Aski в другие сервисы
 							</p>
 						</div>
 					</div>

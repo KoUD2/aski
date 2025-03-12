@@ -1,10 +1,10 @@
 import Header from '@/components/ui/Header/Header'
-import Arrow_Right_LG from '@/shared/images/Arrow_Right_LG.svg'
-import Telegram from '@/shared/images/Telegram.png'
+import Meet from '@/shared/images/meet.png'
 import Telemost from '@/shared/images/Telemost.png'
 import Zoom from '@/shared/images/Zoom.png'
 import cn from 'classnames'
 import Image from 'next/image'
+import Link from 'next/link'
 import { FC } from 'react'
 import styles from './HeaderSection.module.css'
 
@@ -14,6 +14,7 @@ interface IHeaderSection {
 	desc: string
 	isTarification?: boolean
 	className?: string
+	classNameTitle?: string
 }
 
 const HeaderSection: FC<IHeaderSection> = ({
@@ -22,6 +23,7 @@ const HeaderSection: FC<IHeaderSection> = ({
 	desc,
 	isTarification,
 	className,
+	classNameTitle,
 }) => {
 	return (
 		<div className={styles.wrapper}>
@@ -47,7 +49,7 @@ const HeaderSection: FC<IHeaderSection> = ({
 									className={styles.integrationsImg}
 								/>
 								<Image
-									src={Telegram}
+									src={Meet}
 									alt='Возможные интеграции'
 									className={styles.integrationsImg}
 								/>
@@ -56,7 +58,7 @@ const HeaderSection: FC<IHeaderSection> = ({
 					)}
 
 					<div className={styles.texts}>
-						<h1 className={styles.title}>{title}</h1>
+						<h1 className={cn(styles.title, classNameTitle)}>{title}</h1>
 						<p
 							className={cn(
 								styles.description,
@@ -70,14 +72,11 @@ const HeaderSection: FC<IHeaderSection> = ({
 						</p>
 					</div>
 					{isMainPage && (
-						<button className={styles.button}>
-							<p className={styles.buttonText}>Попробовать</p>
-							<Image
-								src={Arrow_Right_LG}
-								alt='Попробовать'
-								className={styles.buttonImg}
-							/>
-						</button>
+						<Link href='/beta-test'>
+							<button className={styles.button}>
+								<p className={styles.buttonText}>Участвовать в бета-тесте</p>
+							</button>
+						</Link>
 					)}
 				</div>
 
@@ -87,8 +86,8 @@ const HeaderSection: FC<IHeaderSection> = ({
 							Aski присоединяется к онлайн-звонку
 						</span>
 						<br />
-						запоминает все идеи · готовит конспект и рассылает интегрирует в CRM
-						· отвечает на вопросы
+						запоминает все идеи · готовит конспект и рассылает отвечает на
+						вопросы
 					</p>
 				)}
 			</div>

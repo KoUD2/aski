@@ -1,14 +1,11 @@
 'use client'
 
 import Calendar from '@/shared/images/Calendar.svg'
-import Chart from '@/shared/images/Chart.svg'
 import Chat from '@/shared/images/Chat.svg'
 import Clock from '@/shared/images/Clock.svg'
 import Profile from '@/shared/images/Profile.svg'
-import Setting from '@/shared/images/Setting.svg'
 import { FC, useMemo, useReducer, useState } from 'react'
 import styles from './SettingsTarification.module.css'
-import MiddleCard from './ui/MiddleCard/MiddleCard'
 import MiniCard from './ui/MiniCard/MiniCard'
 
 const getInitialState = (plan: 'Pro' | 'Team') => ({
@@ -27,8 +24,6 @@ const reducer = (
 	state: ReturnType<typeof getInitialState>,
 	action: { type: string; payload: any }
 ) => {
-	console.log('Reducer action:', action)
-
 	if (action.type === 'toggleMiddleCard') {
 		const newState = {
 			...state,
@@ -37,13 +32,11 @@ const reducer = (
 				[action.payload.card]: action.payload.isActive,
 			},
 		}
-		console.log('New state:', newState)
 		return newState
 	}
 
 	if (action.type === 'setActiveButton') {
 		const newState = getInitialState(action.payload)
-		console.log('New plan state:', newState)
 		return newState
 	}
 
@@ -82,23 +75,19 @@ const SettingsTarification: FC = () => {
 			transcriptionCost +
 			additionalMiddleCardCost
 
-		// Получаем количество участников
 		const teamMembers = Number(state.teamMembers)
 
-		// Определяем множитель
 		let multiplier = 1
 		if (activeButton === 'Pro' && teamMembers > 1) {
-			multiplier = teamMembers // Умножаем на количество участников начиная с 2-го
+			multiplier = teamMembers
 		} else if (activeButton === 'Team' && teamMembers > 5) {
-			multiplier = teamMembers - 4 // Умножаем начиная с 6-го участника
+			multiplier = teamMembers - 4
 		}
 
 		totalPrice *= multiplier
 
 		return Number(state.planDuration) * totalPrice
 	}, [state, activeButton, basePrice])
-
-	console.log('Current selectedMiddleCards:', state.selectedMiddleCards)
 
 	return (
 		<div className={styles.wrapper}>
@@ -170,13 +159,12 @@ const SettingsTarification: FC = () => {
 						onValueChange={newValue => {
 							const currentValue = Number(state.transcriptionMinutes)
 							const inputValue = Number(newValue)
-							const minValue = activeButton === 'Pro' ? 2000 : 4000 // Определяем minValue внутри
+							const minValue = activeButton === 'Pro' ? 2000 : 4000
 
-							// Проверяем, увеличиваем или уменьшаем значение
 							const isIncrease = inputValue > currentValue
 							const updatedValue = isIncrease
-								? inputValue // Если увеличение, оставляем как есть
-								: Math.max(currentValue - 100, minValue) // Если уменьшение, отнимаем 100, но не ниже minValue
+								? inputValue
+								: Math.max(currentValue - 100, minValue)
 
 							dispatch({
 								type: 'transcriptionMinutes',
@@ -209,58 +197,6 @@ const SettingsTarification: FC = () => {
 							}
 						}}
 						disabled={false}
-					/>
-
-					<MiddleCard
-						text='Aski в чате Telegram'
-						path={Profile}
-						isActive={state.selectedMiddleCards.telegram}
-						onToggleChange={() => {
-							console.log(
-								`Toggling ${state.selectedMiddleCards.telegram ? 'off' : 'on'}`
-							)
-
-							dispatch({
-								type: 'toggleMiddleCard',
-								payload: {
-									card: 'telegram',
-									isActive: !state.selectedMiddleCards.telegram,
-								},
-							})
-						}}
-					/>
-
-					<MiddleCard
-						text='Интеграция с amoCRM'
-						className={styles.leftFirst}
-						path={Setting}
-						isActive={state.selectedMiddleCards.amoCRM}
-						onToggleChange={() => {
-							if (activeButton === 'Team') return
-							dispatch({
-								type: 'toggleMiddleCard',
-								payload: {
-									card: 'amoCRM',
-									isActive: !state.selectedMiddleCards.amoCRM,
-								},
-							})
-						}}
-					/>
-					<MiddleCard
-						text='Интеграция в Яндекс Трекер'
-						className={styles.leftSecond}
-						path={Chart}
-						isActive={state.selectedMiddleCards.yandexTracker}
-						onToggleChange={() => {
-							if (activeButton === 'Team') return
-							dispatch({
-								type: 'toggleMiddleCard',
-								payload: {
-									card: 'yandexTracker',
-									isActive: !state.selectedMiddleCards.yandexTracker,
-								},
-							})
-						}}
 					/>
 				</div>
 			</div>

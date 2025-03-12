@@ -1,6 +1,7 @@
 .wrapper {
 	display: flex;
-	width: 10.938vw;
+	width: 22.656vw;
+	height: 10.781vw;
 	padding: 1.25vw;
 	flex-direction: column;
 	gap: 1.667vw;
@@ -28,7 +29,6 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.313vw;
-	width: 8.037vw;
 }
 
 .wrapperButtons {

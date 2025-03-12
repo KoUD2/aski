@@ -1,3 +1,5 @@
+'use client'
+
 import CaretDownMD from '@/shared/images/Caret_Down_MD.svg'
 import EmailSymbol from '@/shared/images/EmailSymbol.svg'
 import TelegramSymbol from '@/shared/images/TelegramSymbol.svg'
@@ -64,15 +66,12 @@ const ContactForm = () => {
 
 			if (!response.ok) throw new Error('Ошибка отправки данных')
 
-			await response.json() // Ждём JSON, чтобы убедиться, что сервер обработал запрос
+			await response.json()
 
-			// Очистка формы после успешной отправки
 			setName('')
 			setSelectedMethod('Как с вами связаться?')
 			setContactValue('')
-			console.log('Заявка успешно отправлена!')
 		} catch (error) {
-			console.log('Ошибка при отправке заявки')
 			console.error(error)
 		} finally {
 			setIsLoading(false)

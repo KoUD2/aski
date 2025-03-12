@@ -1,3 +1,5 @@
+'use client'
+
 import './ToggleSwitch.css'
 
 interface ButtonToggleProps {

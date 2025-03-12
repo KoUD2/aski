@@ -13,10 +13,8 @@ import SolutionSection from './ui/SolutionSection/SolutionSection'
 import Tarification from './ui/Tarification/Tarification'
 import TasksSection from './ui/TasksSection/TasksSection'
 
-// Определяем типы экшенов
 type Action = { type: 'SET_ACTIVE_INDEX'; payload: number }
 
-// Определяем редюсер
 const reducer = (state: number | null, action: Action): number | null => {
 	switch (action.type) {
 		case 'SET_ACTIVE_INDEX':
@@ -34,7 +32,7 @@ const MainPage: FC = () => {
 			<HeaderSection
 				isMainPage={true}
 				title='Aski зафиксирует все важные детали созвона в единой системе'
-				desc='Больше фокуса'
+				desc='Будьте всегда в курсе обсуждений'
 			/>
 			<div className={styles.wrapperUTP}>
 				<CardsSection activeIndex={activeIndex} dispatch={dispatch} />

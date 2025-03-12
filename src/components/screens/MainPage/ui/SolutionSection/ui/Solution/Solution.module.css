@@ -16,6 +16,10 @@
 	letter-spacing: -0.026vw;
 }
 
+.cardBig {
+	height: 31.565vw;
+}
+
 .cards {
 	display: flex;
 	align-items: flex-start;

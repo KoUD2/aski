@@ -7,8 +7,8 @@ import styles from './MiddleCard.module.css'
 interface IMiddleCard {
 	path: string
 	text: string
-	isActive: boolean // Передаем состояние из родителя
-	onToggleChange: () => void // Передаем функцию для изменения состояния
+	isActive: boolean
+	onToggleChange: () => void
 	className?: string
 }
 
@@ -32,7 +32,7 @@ const MiddleCard: FC<IMiddleCard> = ({
 			<ButtonToggle
 				isActive={isActive}
 				onToggle={onToggleChange}
-				disabled={false} // убираем блокировку по isActive
+				disabled={false}
 			/>
 		</div>
 	)

@@ -1,3 +1,5 @@
+'use client'
+
 import CircleCheck from '@/shared/images/Circle_Check.svg'
 import RemoveMinus from '@/shared/images/Remove_Minus.svg'
 import cn from 'classnames'
@@ -50,9 +52,6 @@ const TarificationTable: FC = () => {
 					<p className={styles.statementGray}>Рассылка генераций</p>
 					<p className={styles.statementGray}>Планирование встреч</p>
 					<p className={styles.statementGray}>База данных</p>
-					<p className={styles.statementGray}>Aski AI в чате Telegram</p>
-					<p className={styles.statementGray}>Aski в amoCRM</p>
-					<p className={styles.statementGray}>Aski в Яндекс Трекер</p>
 					<p className={styles.statementGray}>Персональная поддержка</p>
 					<p className={styles.statementGray}>Повышенная защита данных</p>
 				</div>
@@ -63,9 +62,6 @@ const TarificationTable: FC = () => {
 					<p className={styles.statementWhite}>3 встречи</p>
 					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
 					<p className={styles.statementWhite}>1 участник</p>
-					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
-					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
-					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
 					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
 					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
 					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
@@ -96,9 +92,6 @@ const TarificationTable: FC = () => {
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />
-					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
-					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
-					<Image src={RemoveMinus} alt='' className={styles.statementImg} />
 					<p className={styles.statementWhite}>Расширенная</p>
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />
 				</div>
@@ -116,9 +109,6 @@ const TarificationTable: FC = () => {
 					<p className={styles.statementWhite}>12+</p>
 					<p className={styles.statementWhite}>∞</p>
 					<p className={styles.statementWhite}>до 5 участников</p>
-					<Image src={CircleCheck} alt='' className={styles.statementImg} />
-					<Image src={CircleCheck} alt='' className={styles.statementImg} />
-					<Image src={CircleCheck} alt='' className={styles.statementImg} />
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />
 					<Image src={CircleCheck} alt='' className={styles.statementImg} />

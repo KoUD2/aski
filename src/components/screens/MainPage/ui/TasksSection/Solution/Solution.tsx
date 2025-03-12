@@ -1,4 +1,3 @@
-import IntegrationsSolution from '@/shared/images/IntegrationsSolution.png'
 import IntegrationsTasks from '@/shared/images/IntegrationsTasks.svg'
 import TasksSolution from '@/shared/images/TasksSolution.svg'
 import TranscribeTasks from '@/shared/images/TranscribeTasks.svg'
@@ -11,34 +10,16 @@ const Solution: FC = () => {
 		<div className={styles.wrapper}>
 			<h2 className={styles.title}>У aski есть решение</h2>
 			<div className={styles.cards}>
-				<div className={styles.wrapperMiniCards}>
-					<div className={styles.minCards}>
-						<Image
-							src={IntegrationsTasks}
-							alt=''
-							className={styles.cardMiniImg}
-						/>
-						<div className={styles.wrapperText}>
-							<h3 className={styles.cardTitle}>Быстрое редактирование</h3>
-							<p className={styles.cardText}>
-								Исправляйте и улучшайте заметки без ограничений с Aski AI
-							</p>
-						</div>
-					</div>
-					<div className={styles.minCards}>
-						<Image
-							src={IntegrationsSolution}
-							alt=''
-							className={styles.cardMiniImg}
-						/>
-						<div className={styles.wrapperText}>
-							<h3 className={styles.cardTitle}>Чат Telegram</h3>
-							<p className={styles.cardText}>
-								Получайте ответы от Aski AI прямо в чате Telegram
-							</p>
-						</div>
+				<div className={styles.card}>
+					<Image src={IntegrationsTasks} alt='' className={styles.cardImg} />
+					<div className={styles.wrapperText}>
+						<h3 className={styles.cardTitle}>Быстрое редактирование</h3>
+						<p className={styles.cardText}>
+							Исправляйте и улучшайте заметки без ограничений с Aski AI
+						</p>
 					</div>
 				</div>
+
 				<div className={styles.card}>
 					<Image src={TasksSolution} alt='' className={styles.cardImg} />
 					<div className={styles.wrapperText}>

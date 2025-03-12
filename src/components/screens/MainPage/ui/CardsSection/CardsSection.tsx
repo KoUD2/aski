@@ -1,5 +1,3 @@
-'use client'
-
 import BookmarkActive from '@/shared/images/BookmarkActive.svg'
 import BookmarkInactive from '@/shared/images/BookmarkInactive.svg'
 import ChatActive from '@/shared/images/ChatActive.svg'

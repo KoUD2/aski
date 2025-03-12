@@ -14,7 +14,7 @@ const Solution: FC = () => {
 				<div className={styles.card}>
 					<Image src={MeetingSolution} alt='' className={styles.cardImg} />
 					<div className={styles.wrapperText}>
-						<h3 className={styles.cardTitle}>Интеграции с CRM и Notion</h3>
+						<h3 className={styles.cardTitle}>Интеграции с Notion</h3>
 						<p className={styles.cardText}>
 							Автоматически переносите задачи, краткие выжимки и транскрипты
 							встреч из Aski в другие сервисы

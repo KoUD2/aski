@@ -1,11 +1,11 @@
-import ArrowRight from '@/shared/images/Arrow_Right.svg'
 import BackgroundBlur from '@/shared/images/BackgroundBlur.png'
-import amoBlock from '@/shared/images/amoBlock.png'
+import meetBlock from '@/shared/images/meetBlock.png'
 import notionBlock from '@/shared/images/notionBlock.png'
-import trackerBlock from '@/shared/images/trackerBlock.png'
-import yoBlock from '@/shared/images/yoBlock.png'
+import telemostBlock from '@/shared/images/telemostBlock.png'
+import zoomBlock from '@/shared/images/zoomBlock.png'
 import cn from 'classnames'
 import Image from 'next/image'
+import Link from 'next/link'
 import { FC } from 'react'
 import styles from './Integrations.module.css'
 
@@ -21,19 +21,19 @@ const Integrations: FC = () => {
 					className={styles.imageBlock}
 				/>
 				<Image
-					src={yoBlock}
+					src={zoomBlock}
 					alt=''
 					draggable={false}
 					className={cn(styles.imageBlock, styles.rightFirst)}
 				/>
 				<Image
-					src={trackerBlock}
+					src={telemostBlock}
 					alt=''
 					draggable={false}
 					className={cn(styles.imageBlock, styles.rightSecond)}
 				/>
 				<Image
-					src={amoBlock}
+					src={meetBlock}
 					alt=''
 					draggable={false}
 					className={cn(styles.imageBlock, styles.rightThird)}
@@ -41,21 +41,20 @@ const Integrations: FC = () => {
 			</div>
 			<div className={styles.wrapperIntegration}>
 				<p className={styles.integrationText}>
-					Повышайте эффективность продаж и ускоряйте процессы с привычными
+					Повышайте эффективность и ускоряйте процессы с привычными
 					инструментами <br />
 					<span className={styles.integrationTextGrey}>
 						Легкая интеграция поможет автоматически перенести расшифровки из
 						Aski
 					</span>
 				</p>
-				<button className={styles.integrationButton}>
-					<p className={styles.integrationButtonText}>Попробовать</p>
-					<Image
-						src={ArrowRight}
-						alt='Попробовать'
-						className={styles.integrationButtonImg}
-					/>
-				</button>
+				<Link href='/beta-test'>
+					<button className={styles.integrationButton}>
+						<p className={styles.integrationButtonText}>
+							Участвовать в бета-тесте
+						</p>
+					</button>
+				</Link>
 			</div>
 		</div>
 	)

@@ -156,11 +156,21 @@
 
 .wrapperCard4Card5Card6 {
 	display: flex;
+	padding: 1.667vw;
 	width: 22.917vw;
 	flex-direction: column;
+	justify-content: space-between;
 	align-items: flex-start;
-	gap: 1.042vw;
-	flex-shrink: 0;
+	flex: 1 0 0;
+	align-self: stretch;
+	border-radius: 1.667vw;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+}
+
+.shortTextsImage {
+	width: 19.635vw;
+	height: 21.042vw;
 }
 
 .wrapperCard5 {
