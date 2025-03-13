@@ -12,3 +12,14 @@
 	align-items: center;
 	gap: 2.083vw;
 }
+
+@media (max-width: 480px) {
+	.mainWrapper {
+		padding-bottom: 3.721vw;
+		gap: 23.256vw;
+	}
+
+	.wrapperUTP {
+		gap: 4.651vw;
+	}
+}

@@ -80,3 +80,50 @@
 	border: none;
 	outline: none;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 44.884vw;
+		height: 50.465vw;
+		padding: 4.651vw;
+		gap: 7.442vw;
+		border-radius: 2.791vw;
+	}
+
+	.wrapperTexts {
+		gap: 8px;
+		flex-direction: column;
+	}
+
+	.img {
+		height: 11.395vw;
+	}
+
+	.text {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperButtons {
+		gap: 0.93vw;
+	}
+
+	.button {
+		width: 9.302vw;
+		height: 9.302vw;
+		border-radius: 116.279vw;
+	}
+
+	.buttonImg {
+		width: 5.581vw;
+		height: 5.581vw;
+	}
+
+	.input {
+		width: 15.116vw;
+		height: 9.302vw;
+		border-radius: 1.86vw;
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+}

@@ -127,3 +127,91 @@
 	width: 1.25vw;
 	height: 1.25vw;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		gap: 3.721vw;
+	}
+
+	.wrapperHeader {
+		padding: 0 10vw;
+		width: 92.558vw;
+		height: 20.93vw;
+		border-radius: 2.791vw;
+		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.circle {
+		top: -1.66vw;
+		left: -121.86vw;
+		width: 316.279vw;
+		height: 316.279vw;
+		border-radius: 316.279vw;
+		filter: blur(23.256vw);
+	}
+
+	.leftFirst {
+		width: 18.372vw;
+	}
+	.leftSecond {
+		width: 15.218vw;
+	}
+	.leftThird {
+		width: 15.814vw;
+	}
+	.leftFourth {
+		width: fit-content;
+	}
+
+	.title {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperButtons {
+		padding: 1.86vw;
+		gap: 2.791vw;
+		border-radius: 3.721vw;
+		backdrop-filter: blur(3.488vw);
+	}
+	.button {
+		height: 9.767vw;
+		padding: 1.86vw 5.581vw;
+		border-radius: 2.791vw;
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperAllTarification {
+		padding: 2.791vw;
+		border-radius: 2.791vw;
+		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.wrapperStatements {
+		gap: 11.163vw;
+	}
+
+	.statementGray {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+		width: 25.581vw;
+	}
+
+	.statementWhite {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+		width: 15.814vw;
+		height: 11.174vw;
+	}
+
+	.statementImg {
+		width: 5.581vw;
+		height: 5.581vw;
+	}
+
+	.wrapperMobile {
+		height: 11.163vw;
+	}
+}

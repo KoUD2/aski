@@ -134,3 +134,89 @@
 	font-weight: 500;
 	line-height: 100%;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		height: 54.54vw;
+		border-radius: 2.791vw;
+		border: 0.093vw solid var(--dark_gray_stroke, #2e2e2e);
+		padding: 1.395vw;
+	}
+
+	.circle {
+		width: 39.472vw;
+		height: 39.472vw;
+		border-radius: 100%;
+		filter: blur(6.168vw);
+	}
+
+	.cardsWrapper {
+		gap: 0.986vw;
+	}
+
+	.recording {
+		width: 29.696vw;
+		height: 21.21vw;
+		padding: 1.579vw;
+		border-radius: 1.579vw;
+		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.recordingImg {
+		width: 1.974vw;
+		height: 1.974vw;
+	}
+
+	.recordingText {
+		font-size: 3.395px;
+		line-height: 150%;
+	}
+
+	.wrapperMiniCards {
+		gap: 0.986vw;
+	}
+
+	.miniCard {
+		width: 13.546vw;
+		height: 10.1vw;
+		padding: 1.579vw;
+		border-radius: 1.579vw;
+		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.aiImg {
+		width: 1.382vw;
+		height: 1.973vw;
+	}
+
+	.planImg {
+		width: 1.974vw;
+		height: 1.974vw;
+	}
+
+	.wrapperBalance {
+		top: 3.784vw;
+		right: 9.042vw;
+		gap: 0.197vw;
+	}
+
+	.balanceText {
+		font-size: 0.74vw;
+		line-height: 100%;
+	}
+
+	.balanceContainer {
+		width: 4.676vw;
+		height: 1.717vw;
+		padding: 0.197vw 0.345vw;
+		gap: 0.493vw;
+		border-radius: 1.579vw;
+		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.balance {
+		font-size: 0.74vw;
+		line-height: 100%;
+	}
+}

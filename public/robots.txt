@@ -1,0 +1,14 @@
+User-Agent: Yandex
+Host: https://www.aski.site
+
+Sitemap: https://www.aski.site/sitemap.xml
+
+User-Agent: GoogleBot
+Host: https://www.aski.site
+
+Sitemap: https://www.aski.site/sitemap.xml
+
+User-Agent: *
+Host: https://www.aski.site
+
+Sitemap: https://www.aski.site/sitemap.xml

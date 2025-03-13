@@ -86,3 +86,75 @@
 	font-weight: 400;
 	line-height: 90%; /* 3.469vw */
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		height: fit-content;
+		padding: 9.302vw;
+		gap: 4.651vw;
+		border-radius: 7.442vw;
+		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.wrapperTitle {
+		gap: 2.791vw;
+	}
+
+	.personImg {
+		width: 12.093vw;
+		height: 12.093vw;
+	}
+
+	.wrapperPersonTexts {
+		width: 62.093vw;
+		gap: 1.86vw;
+	}
+
+	.personTitle {
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+	}
+
+	.personText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperDescription {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.406vw;
+		align-self: stretch;
+	}
+
+	.wrapperQuoteFirst {
+		display: flex;
+		width: 1.719vw;
+		height: 14.688vw;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 0.521vw;
+	}
+
+	.wrapperQuoteSecond {
+		display: flex;
+		width: 1.719vw;
+		height: 14.688vw;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.521vw;
+	}
+
+	.quoteFirst {
+		color: #fff;
+		text-align: center;
+		font-family: 'Times New Roman';
+		font-size: 3.854vw;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 90%; /* 3.469vw */
+	}
+}

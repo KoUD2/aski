@@ -1,0 +1,29 @@
+.textCase {
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+.textCaseActive {
+	color: #fff;
+	font-family: 'Inter Tight';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.313vw;
+}
+
+@media (max-width: 480px) {
+	.textCase {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.textCaseActive {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+}

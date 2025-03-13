@@ -1,7 +1,7 @@
 .wrapper {
 	display: flex;
 	height: 37.635vw;
-	width: fit-content;
+	width: 13.2vw;
 	padding: 1.181vw;
 	flex-direction: column;
 	justify-content: space-between;
@@ -87,4 +87,68 @@
 	font-style: normal;
 	font-weight: 500;
 	line-height: 100%;
+}
+
+@media (max-width: 480px) {
+	.wrapper {
+		height: 51.51vw;
+		padding: 1.579vw;
+		border-radius: 1.579vw;
+		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		width: 17.8vw;
+	}
+
+	.wrapperHead {
+		width: 10.75vw;
+		gap: 4.934vw;
+	}
+
+	.logo {
+		width: 4.046vw;
+		height: 1.974vw;
+	}
+
+	.wrapperLinks {
+		gap: 1.184vw;
+	}
+
+	.wrapperLink {
+		display: flex;
+		align-items: center;
+		gap: 0.221vw;
+	}
+
+	.icon {
+		width: 0.886vw;
+		height: 0.886vw;
+	}
+
+	.linkText {
+		font-size: 0.74vw;
+		line-height: 100%;
+	}
+
+	.footer {
+		gap: 0.395vw;
+	}
+
+	.avatar {
+		width: 2.368vw;
+		height: 2.368vw;
+		border-radius: 2.368vw;
+		border: 0.049vw solid var(--white, #fff);
+	}
+
+	.naming {
+		gap: 0.592vw;
+	}
+
+	.name {
+		font-size: 0.888vw;
+		line-height: 110%;
+	}
+	.positioning {
+		font-size: 0.74vw;
+		line-height: 100%;
+	}
 }

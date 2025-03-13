@@ -15,6 +15,7 @@ interface IHeaderSection {
 	isTarification?: boolean
 	className?: string
 	classNameTitle?: string
+	classNameTest?: string
 }
 
 const HeaderSection: FC<IHeaderSection> = ({
@@ -24,14 +25,19 @@ const HeaderSection: FC<IHeaderSection> = ({
 	isTarification,
 	className,
 	classNameTitle,
+	classNameTest,
 }) => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.header}>
 				<div
-					className={cn(styles.content, {
-						[styles.tarification]: isTarification,
-					})}
+					className={cn(
+						styles.content,
+						{
+							[styles.tarification]: isTarification,
+						},
+						classNameTest
+					)}
 				>
 					<Header />
 					{isMainPage && (

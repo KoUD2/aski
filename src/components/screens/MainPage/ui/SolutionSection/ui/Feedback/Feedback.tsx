@@ -1,3 +1,6 @@
+'use client'
+
+import useWindowWidth from '@/hooks/useWindowWidth'
 import cn from 'classnames'
 import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 import Image from 'next/image'
@@ -19,6 +22,8 @@ const Feedback: FC<IFeedback> = ({
 	children,
 	className,
 }) => {
+	const windowWidth = useWindowWidth()
+
 	return (
 		<div className={cn(styles.wrapper, className)}>
 			<div className={styles.person}>
@@ -29,13 +34,17 @@ const Feedback: FC<IFeedback> = ({
 				</div>
 			</div>
 			<div className={styles.wrapperText}>
-				<div className={styles.quotes}>
-					<p className={styles.quote}>„</p>
-				</div>
+				{windowWidth > 480 && (
+					<div className={styles.quotes}>
+						<p className={styles.quote}>„</p>
+					</div>
+				)}
 				<p className={styles.quoteText}>{children}</p>
-				<div className={styles.quotesSecond}>
-					<p className={styles.quoteSecond}>“</p>
-				</div>
+				{windowWidth > 480 && (
+					<div className={styles.quotesSecond}>
+						<p className={styles.quoteSecond}>“</p>
+					</div>
+				)}
 			</div>
 		</div>
 	)

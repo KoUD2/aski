@@ -7,13 +7,22 @@ import styles from './Footer.module.css'
 
 const Footer: FC = () => {
 	return (
-		<div className={styles.wrapper}>
+		<footer
+			className={styles.wrapper}
+			itemScope
+			itemType='https://schema.org/Organization'
+		>
 			<div className={styles.wrapperContent}>
 				<div className={styles.wrapperLogoContent}>
-					<Link href='/'>
-						<Image src={Logo} alt='Логотип' className={styles.logo} />
+					<Link href='/' itemProp='url'>
+						<Image
+							src={Logo}
+							alt='Логотип'
+							className={styles.logo}
+							itemProp='logo'
+						/>
 					</Link>
-					<div className={styles.wrapperComponents}>
+					<nav className={styles.wrapperComponents}>
 						<Link href='/services'>
 							<p className={styles.componentText}>Сервисы</p>
 						</Link>
@@ -27,7 +36,7 @@ const Footer: FC = () => {
 						<Link href='/team'>
 							<p className={styles.componentText}>Компания</p>
 						</Link>
-					</div>
+					</nav>
 				</div>
 				<div className={styles.wrapperConfEmail}>
 					{/* <div className={styles.wrapperConf}>
@@ -36,7 +45,9 @@ const Footer: FC = () => {
 					</div> */}
 					<div className={styles.wrapperConf}>
 						<h3 className={styles.confTitle}>Написать нам</h3>
-						<p className={styles.confText}>hey@aski.site</p>
+						<p className={styles.confText} itemProp='email'>
+							hey@aski.site
+						</p>
 					</div>
 				</div>
 			</div>
@@ -49,11 +60,12 @@ const Footer: FC = () => {
 							src={TelegramSymbol}
 							alt='Перейти в телеграм'
 							className={styles.linkTelegram}
+							itemProp='sameAs'
 						/>
 					</Link>
 				</div>
 			</div>
-		</div>
+		</footer>
 	)
 }
 

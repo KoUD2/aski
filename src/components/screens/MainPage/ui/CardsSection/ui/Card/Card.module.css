@@ -45,3 +45,35 @@
 	background: var(--card_bg);
 	box-shadow: 0vw 0.208vw 2.604vw 0vw rgba(144, 146, 227, 0.2) inset;
 }
+
+@media (max-width: 480px) {
+	.cardWrapper {
+		width: fit-content;
+		padding: 3.023vw;
+		height: 50.274vw;
+		gap: 2.791vw;
+		border-radius: 2.791vw;
+	}
+
+	.cardImg {
+		height: 7.442vw;
+	}
+
+	.cardTitle {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+		text-align: left;
+	}
+
+	.cardDesc {
+		width: 48.372vw;
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.activeWrapper {
+		width: 57.674vw;
+		padding: 4.651vw;
+		box-shadow: 0vw 0.93vw 11.628vw 0vw rgba(144, 146, 227, 0.2) inset;
+	}
+}

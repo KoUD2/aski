@@ -108,3 +108,82 @@
 	font-weight: 400;
 	line-height: 1vw;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		height: fit-content;
+		padding: 7.442vw;
+		justify-content: flex-start;
+		gap: 11.163vw;
+		border-radius: 3.721vw;
+		border: 0.233vw solid #2c2c2c;
+		backdrop-filter: blur(2.326vw);
+	}
+
+	.wrapperFooter {
+		width: 77.674vw;
+		gap: 5.581vw;
+	}
+
+	.wrapperLinks {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.linksText {
+		font-size: 3.721vw;
+		line-height: 4.465vw;
+	}
+
+	.linkTelegram {
+		width: 5.581vw;
+		height: 5.581vw;
+	}
+
+	.wrapperContent {
+		flex-direction: column;
+		gap: 11.628vw;
+		justify-content: flex-start;
+		height: fit-content;
+	}
+
+	.wrapperLogoContent {
+		flex-direction: column;
+		gap: 12.558vw;
+	}
+
+	.wrapperConfEmail {
+		display: flex;
+		gap: 3.488vw;
+		margin-right: 0;
+	}
+
+	.logo {
+		width: 15.256vw;
+		height: 7.442vw;
+	}
+
+	.wrapperComponents {
+		gap: 3.488vw;
+	}
+
+	.componentText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperConf {
+		gap: 3.488vw;
+	}
+
+	.confTitle {
+		font-size: 4.186vw;
+		line-height: 4.605vw;
+	}
+
+	.confText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+}

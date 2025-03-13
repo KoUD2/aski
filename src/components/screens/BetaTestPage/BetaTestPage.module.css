@@ -62,3 +62,43 @@
 .mainTitle {
 	width: 34.884vw;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		gap: 23.256vw;
+		padding-bottom: 3.721vw;
+	}
+
+	.mainWrapperTitle {
+		padding: 0.233vw;
+		border-radius: 5.823vw;
+	}
+
+	.wrapperTitle {
+		padding: 1.395vw 3.023vw;
+		border-radius: 5.823vw;
+		background-color: #324b8f;
+	}
+
+	.title {
+		font-size: 3.256vw;
+		line-height: 110%;
+	}
+
+	.wrapperBetaTestForm {
+		gap: 9.302vw;
+		margin-top: -120vw;
+	}
+
+	.mainTitle {
+		width: 74.884vw;
+	}
+
+	.description {
+		width: 44.6vw;
+	}
+
+	.testHeader {
+		margin-top: 145.946vw !important;
+	}
+}

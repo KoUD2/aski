@@ -77,6 +77,8 @@
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
+	border: none;
+	outline: none;
 }
 
 .circle {
@@ -102,4 +104,66 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.313vw;
+}
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		height: 127.209vw;
+		padding: 0vw 4.651vw;
+		gap: 4.651vw;
+		border-radius: 2.791vw;
+		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+		backdrop-filter: blur(2.326vw);
+	}
+
+	.wrapperHeader {
+		width: 83.256vw;
+		height: fit-content;
+		padding: 4.651vw 0 0 0;
+		gap: 4.651vw;
+	}
+
+	.headerName {
+		font-size: 5.116vw;
+		line-height: 120%;
+		letter-spacing: -0.14vw;
+	}
+
+	.headerPrice {
+		font-size: 5.116vw;
+		line-height: 120%;
+		letter-spacing: -0.14vw;
+	}
+
+	.headerDesc {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+		width: fit-content;
+	}
+
+	.headerButton {
+		width: 83.256vw;
+		height: 12.093vw;
+		padding: 3.953vw 5.581vw;
+		border-radius: 2.791vw;
+		font-size: 3.256vw;
+	}
+
+	.circle {
+		width: 86.785vw;
+		height: 86.785vw;
+		border-radius: 86.785vw;
+		filter: blur(23.256vw);
+		bottom: -83.414vw;
+	}
+
+	.wrapperPrice {
+		gap: 0.93vw;
+	}
+
+	.periodText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
 }

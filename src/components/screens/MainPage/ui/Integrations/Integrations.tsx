@@ -1,4 +1,8 @@
+'use client'
+
+import useWindowWidth from '@/hooks/useWindowWidth'
 import BackgroundBlur from '@/shared/images/BackgroundBlur.png'
+import BackgroundBlurMobile from '@/shared/images/BackgroundBlurMobile.png'
 import meetBlock from '@/shared/images/meetBlock.png'
 import notionBlock from '@/shared/images/notionBlock.png'
 import telemostBlock from '@/shared/images/telemostBlock.png'
@@ -10,9 +14,15 @@ import { FC } from 'react'
 import styles from './Integrations.module.css'
 
 const Integrations: FC = () => {
+	const windowWidth = useWindowWidth()
+
 	return (
 		<div className={styles.wrapper}>
-			<Image src={BackgroundBlur} alt='' className={styles.imgBlur} />
+			<Image
+				src={windowWidth > 480 ? BackgroundBlur : BackgroundBlurMobile}
+				alt=''
+				className={styles.imgBlur}
+			/>
 			<div className={styles.wrapperImages}>
 				<Image
 					src={notionBlock}

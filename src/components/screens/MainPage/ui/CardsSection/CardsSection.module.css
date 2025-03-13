@@ -4,3 +4,10 @@
 	align-items: center;
 	gap: 1.042vw;
 }
+
+@media (max-width: 480px) {
+	.cardWrapper {
+		margin-top: -80vw;
+		gap: 2.791vw;
+	}
+}

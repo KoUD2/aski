@@ -16,20 +16,15 @@
 	margin-top: -25.333vw;
 }
 
-.textCase {
-	color: rgba(255, 255, 255, 0.5);
-	font-family: 'Inter Tight';
-	font-size: 0.938vw;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1.313vw;
-}
+@media (max-width: 480px) {
+	.wrapper {
+		gap: 23.256vw;
+		padding-bottom: 3.721vw;
+	}
 
-.textCaseActive {
-	color: #fff;
-	font-family: 'Inter Tight';
-	font-size: 0.938vw;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1.313vw;
+	.wrapperCards {
+		width: 92.558vw;
+		gap: 4.651vw;
+		margin-top: -122.333vw;
+	}
 }

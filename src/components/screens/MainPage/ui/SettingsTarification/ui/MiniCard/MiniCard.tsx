@@ -88,7 +88,7 @@ const MiniCard: FC<IMiniCard> = ({
 					value={value}
 					onChange={handleChange}
 					onBlur={handleBlur}
-					disabled={disabled} // Блокируем ввод
+					disabled={disabled}
 				/>
 				<button
 					className={styles.button}

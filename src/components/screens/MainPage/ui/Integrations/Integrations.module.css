@@ -94,3 +94,59 @@
 .integrationTextGrey {
 	color: rgba(252, 248, 241, 0.5);
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		height: 146.512vw;
+		border-radius: 7.442vw;
+		padding-left: 7.442vw;
+		padding-bottom: 7.442vw;
+		align-items: flex-end;
+	}
+
+	.wrapperImages {
+		top: 16.186vw;
+		right: 13.788vw;
+	}
+
+	.rightFirst {
+		margin-right: 17.112vw;
+	}
+	.rightSecond {
+		margin-right: 34.274vw;
+	}
+	.rightThird {
+		margin-right: 51.512vw;
+	}
+
+	.imageBlock {
+		width: 14.884vw;
+		height: 14.884vw;
+	}
+
+	.imgBlur {
+		width: 92.558vw;
+	}
+
+	.wrapperIntegration {
+		gap: 5.581vw;
+		width: 76.977vw;
+	}
+
+	.integrationText {
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+	}
+
+	.integrationButton {
+		height: fit-content;
+		width: fit-content;
+		padding: 3.953vw 5.581vw;
+		border-radius: 2.791vw;
+	}
+
+	.integrationButtonText {
+		font-size: 3.256vw;
+	}
+}

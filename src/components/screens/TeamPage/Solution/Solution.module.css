@@ -85,3 +85,73 @@
 	border-radius: 0.625vw;
 	background: var(--card_bg);
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		margin-top: 18.605vw;
+		gap: 7.442vw;
+	}
+
+	.title {
+		font-size: 7.442vw;
+		line-height: 7.442vw;
+	}
+
+	.cardBig {
+		height: fit-content;
+	}
+
+	.cards {
+		flex-direction: column;
+		gap: 4.651vw;
+	}
+
+	.card {
+		width: 92.558vw;
+		padding: 7.442vw;
+		gap: 0;
+		border-radius: 2.791vw;
+	}
+
+	.cardImg {
+		width: 78.907vw;
+		height: 84.558vw;
+	}
+
+	.wrapperText {
+		gap: 1.86vw;
+	}
+
+	.cardTitle {
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+	}
+
+	.cardText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperMiniCards {
+		display: flex;
+		width: 22.917vw;
+		height: 31.563vw;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.cardMiniImg {
+		width: 4.427vw;
+		height: 4.635vw;
+	}
+
+	.minCards {
+		display: flex;
+		height: 15.313vw;
+		padding: 1.667vw;
+		flex-direction: column;
+		gap: 1.302vw;
+		border-radius: 0.625vw;
+		background: var(--card_bg);
+	}
+}

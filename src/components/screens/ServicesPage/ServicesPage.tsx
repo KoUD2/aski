@@ -3,13 +3,14 @@ import askiFav from '@/shared/images/askiFav.png'
 import GoogleMeat from '@/shared/images/GoogleMeat.png'
 import mts from '@/shared/images/mts.png'
 import SberJazz from '@/shared/images/SberJazz.png'
-import ShortTextsImage from '@/shared/images/ShortTextsImage.svg'
+
 import Teams from '@/shared/images/Teams.png'
 import Tele from '@/shared/images/Tele.png'
 import zoomI from '@/shared/images/zoomI.png'
 import Image from 'next/image'
 import { FC } from 'react'
 import HeaderSection from '../MainPage/ui/HeaderSection/HeaderSection'
+import Review from './Review/Review'
 import styles from './ServicesPage.module.css'
 
 const ServicesPage: FC = () => {
@@ -90,20 +91,7 @@ const ServicesPage: FC = () => {
 					</div>
 				</div>
 
-				<div className={styles.wrapperCard4Card5Card6}>
-					<div className={styles.wrapperDesc}>
-						<h1 className={styles.mainTitle}>Конспекты встреч</h1>
-						<p className={styles.mainDesc}>
-							Используйте один из 12 готовых шаблонов конспекта, и Aski
-							автоматически заполнит его на основе записи встречи
-						</p>
-					</div>
-					<Image
-						src={ShortTextsImage}
-						alt=''
-						className={styles.shortTextsImage}
-					></Image>
-				</div>
+				<Review />
 
 				<div className={styles.wrapperCard7Card8}>
 					<div className={styles.wrapperCard7}>

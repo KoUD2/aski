@@ -13,3 +13,14 @@
 .accent {
 	color: var(--main-text);
 }
+
+@media (max-width: 480px) {
+	.wrapperSections {
+		gap: 4.651vw;
+	}
+
+	.imgPageMeetings {
+		width: 92.558vw;
+		height: 52.065vw;
+	}
+}

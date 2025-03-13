@@ -27,3 +27,22 @@
 	letter-spacing: -0.019vw;
 	width: 22.897vw;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		width: 92.558vw;
+		height: 77.442vw;
+		border-radius: 7.442vw;
+	}
+
+	.img {
+		width: 92.558vw;
+		height: 77.442vw;
+	}
+
+	.text {
+		width: 75.671vw;
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+	}
+}

@@ -20,3 +20,16 @@
 .addWrapper {
 	margin: 0;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		gap: 23.256vw;
+		padding-bottom: 3.721vw;
+	}
+
+	.wrapperHeadInfo {
+		gap: 4.651vw;
+		flex-direction: column;
+		margin-top: -122vw;
+	}
+}

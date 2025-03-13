@@ -13,3 +13,14 @@
 	width: 70.842vw;
 	height: 39.849vw;
 }
+
+@media (max-width: 480px) {
+	.mainPage {
+		gap: 4.651vw;
+	}
+
+	.mainPageSection {
+		width: 92.558vw;
+		height: 52.093vw;
+	}
+}

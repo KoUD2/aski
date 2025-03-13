@@ -164,3 +164,89 @@
 	gap: 1.042vw;
 	flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		gap: 7.442vw;
+	}
+
+	.wrapperAllCArds {
+		flex-direction: column;
+		gap: 4.651vw;
+	}
+
+	.leftFirst {
+		margin-left: -0.35vw;
+	}
+	.leftSecond {
+		margin-left: -0.25vw;
+	}
+	.leftThird {
+		margin-left: -2.65vw;
+	}
+	.leftFourth {
+		margin-left: -1.95vw;
+	}
+
+	.title {
+		font-size: 7.442vw;
+		line-height: 7.442vw;
+	}
+
+	.wrapperBigCard {
+		width: 92.558vw;
+		height: 86.047vw;
+		padding: 4.651vw;
+		border-radius: 2.791vw;
+	}
+
+	.buttonBought {
+		width: 41.86vw;
+		height: 12.093vw;
+		border-radius: 2.791vw;
+		font-size: 3.256vw;
+	}
+
+	.wrapperBigCardHead {
+		gap: 5.581vw;
+	}
+
+	.wrapperBigCardHeadText {
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+	}
+
+	.wrapperButtons {
+		padding: 1.86vw;
+		gap: 2.791vw;
+		border-radius: 3.721vw;
+		backdrop-filter: blur(3.488vw);
+	}
+
+	.button {
+		height: 9.767vw;
+		padding: 1.86vw 5.581vw;
+		border-radius: 2.791vw;
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperPrice {
+		gap: 0.93vw;
+	}
+
+	.priceText {
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+	}
+
+	.pricePeriod {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperMiniCards {
+		width: 92.558vw;
+		gap: 4.651vw 2.791vw;
+	}
+}

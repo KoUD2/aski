@@ -25,3 +25,26 @@
 .cardImg {
 	margin-left: -0.8vw;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		gap: 12.558vw;
+	}
+
+	.missionTitle {
+		font-size: 7.442vw;
+		line-height: 7.442vw;
+	}
+
+	.wrapperCards {
+		flex-direction: column;
+		gap: 4.651vw;
+	}
+
+	.cardImg {
+		margin-left: -3.8vw;
+	}
+	.cardImg2 {
+		margin-left: -1.5vw;
+	}
+}

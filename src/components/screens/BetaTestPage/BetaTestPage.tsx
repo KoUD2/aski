@@ -14,6 +14,7 @@ const BetaTestPage: FC = () => {
 				isTarification={true}
 				className={styles.description}
 				classNameTitle={styles.mainTitle}
+				classNameTest={styles.testHeader}
 			/>
 
 			<div className={styles.wrapperBetaTestForm}>

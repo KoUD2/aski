@@ -49,6 +49,7 @@
 .dropdownImg {
 	width: 1.25vw;
 	height: 1.25vw;
+	transition: all 0.2s ease-out;
 }
 
 .imgUp {
@@ -128,4 +129,74 @@
 }
 .emailBtn {
 	border-radius: 0px 0px 12px 12px;
+}
+
+@media (max-width: 480px) {
+	.formContainer {
+		width: 92.558vw;
+		gap: 2.791vw;
+	}
+
+	.inputField {
+		padding: 4.884vw 4.651vw;
+		gap: 2.326vw;
+		border-radius: 2.791vw;
+		border: 0.233vw solid #2e2e2e;
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.dropdownText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.dropdownBtn {
+		padding: 4.884vw 4.651vw;
+		border-radius: 2.791vw;
+	}
+
+	.dropdownImg {
+		width: 5.581vw;
+		height: 5.581vw;
+	}
+
+	.dropdownMenu {
+		width: 92.558vw;
+	}
+
+	.dropdownItem {
+		padding: 4.884vw 4.651vw;
+		gap: 2.326vw;
+		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+	}
+
+	.iconText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapper {
+		width: 92.558vw;
+		gap: 4.651vw;
+	}
+
+	.submitBtn {
+		height: 12.093vw;
+		padding: 3.953vw 10vw;
+		border-radius: 2.791vw;
+		font-size: 3.256vw;
+	}
+
+	.icon {
+		width: 5.581vw;
+		height: 5.581vw;
+	}
+
+	.telegramBtn {
+		border-radius: 2.791vw 2.791vw 0vw 0vw;
+	}
+	.emailBtn {
+		border-radius: 0vw 0vw 2.791vw 2.791vw;
+	}
 }

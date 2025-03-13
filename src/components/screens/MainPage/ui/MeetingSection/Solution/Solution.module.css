@@ -88,3 +88,72 @@
 	border-radius: 0.625vw;
 	background: var(--card_bg);
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		margin-top: 18.605vw;
+		gap: 7.442vw;
+	}
+
+	.title {
+		font-size: 7.442vw;
+		line-height: 7.442vw;
+	}
+
+	.cardBig {
+		height: fit-content;
+	}
+
+	.cards {
+		flex-direction: column;
+		gap: 4.651vw;
+	}
+
+	.card {
+		width: 92.558vw;
+		padding: 7.442vw;
+		gap: 0;
+		border-radius: 2.791vw;
+	}
+
+	.cardImg {
+		width: 78.907vw;
+		height: 84.558vw;
+	}
+
+	.wrapperText {
+		gap: 1.86vw;
+		width: fit-content;
+	}
+
+	.cardTitle {
+		font-size: 5.116vw;
+		letter-spacing: -0.14vw;
+		width: fit-content;
+	}
+
+	.cardText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+		width: fit-content;
+	}
+
+	.wrapperMiniCards {
+		width: 92.558vw;
+		height: fit-content;
+		gap: 4.651vw;
+	}
+
+	.cardMiniImg {
+		width: 19.767vw;
+		height: 20.698vw;
+	}
+
+	.minCards {
+		width: 92.558vw;
+		padding: 7.442vw;
+		height: fit-content;
+		gap: 5.814vw;
+		border-radius: 2.791vw;
+	}
+}

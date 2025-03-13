@@ -1,14 +1,13 @@
 import Footer from '@/components/ui/Footer/Footer'
 import AvatarC from '@/shared/images/AvatarC.png'
-import constructorOffer4 from '@/shared/images/constructorOffer4.png'
-import constructorOffer5 from '@/shared/images/constructorOffer5.png'
+
 import { FC } from 'react'
-import TextBack from '../CasesPage/ui/TextBack/TextBack'
 import HeaderSection from '../MainPage/ui/HeaderSection/HeaderSection'
 import Feedback from '../MainPage/ui/SolutionSection/ui/Feedback/Feedback'
 import Mission from './Mission/Mission'
 import Solution from './Solution/Solution'
 import styles from './TeamPage.module.css'
+import TextBacks from './TextBacks/TextBacks'
 
 const TeamPage: FC = () => {
 	return (
@@ -21,14 +20,7 @@ const TeamPage: FC = () => {
 			/>
 
 			<div className={styles.wrapperHeadInfo}>
-				<TextBack
-					path={constructorOffer4}
-					text='Aski — AI-помощник, который зафиксирует всё, что было на созвоне и ответит на любой вопрос по встрече'
-				/>
-				<TextBack
-					path={constructorOffer5}
-					text='Мы верим в эту технологию и считаем, что за ней стоит будущее, и именно поэтому создали проект Aski'
-				/>
+				<TextBacks />
 			</div>
 
 			<Solution />

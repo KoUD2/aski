@@ -1,3 +1,6 @@
+'use client'
+
+import useWindowWidth from '@/hooks/useWindowWidth'
 import cn from 'classnames'
 import Image from 'next/image'
 import { FC } from 'react'
@@ -20,6 +23,8 @@ const Card: FC<ICard> = ({
 	isActive,
 	onClick,
 }) => {
+	const windowWidth = useWindowWidth()
+
 	return (
 		<button
 			className={cn(styles.cardWrapper, { [styles.activeWrapper]: isActive })}
@@ -39,12 +44,20 @@ const Card: FC<ICard> = ({
 				/>
 			)}
 
-			<h3 className={cn(styles.cardTitle, { [styles.activeCard]: isActive })}>
-				{title}
-			</h3>
-			<p className={cn(styles.cardDesc, { [styles.activeCard]: isActive })}>
-				{desc}
-			</p>
+			{windowWidth <= 480 && !isActive ? (
+				<></>
+			) : (
+				<>
+					<h3
+						className={cn(styles.cardTitle, { [styles.activeCard]: isActive })}
+					>
+						{title}
+					</h3>
+					<p className={cn(styles.cardDesc, { [styles.activeCard]: isActive })}>
+						{desc}
+					</p>
+				</>
+			)}
 		</button>
 	)
 }

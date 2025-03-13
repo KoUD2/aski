@@ -90,3 +90,57 @@
 	font-weight: 400;
 	line-height: 1.313vw;
 }
+
+@media (max-width: 480px) {
+	.wrapper {
+		gap: 7.442vw;
+	}
+
+	.wrapperHeadSection {
+		gap: 4.651vw;
+	}
+
+	.wrapperButtons {
+		padding: 1.86vw;
+		gap: 2.791vw;
+		border-radius: 3.721vw;
+		backdrop-filter: blur(3.488vw);
+	}
+
+	.buttonsHeader {
+		font-size: 7.442vw;
+		line-height: 7.442vw;
+	}
+
+	.button {
+		height: 42px;
+		padding: 8px 24px;
+		border-radius: 12px;
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+
+	.wrapperCards {
+		gap: 4.651vw;
+		flex-direction: column;
+	}
+
+	.wrapperStatements {
+		width: 81.395vw;
+		gap: 2.791vw;
+	}
+
+	.wrapperStatement {
+		gap: 1.86vw;
+	}
+
+	.statementImg {
+		width: 5.581vw;
+		height: 5.581vw;
+	}
+
+	.statementText {
+		font-size: 3.721vw;
+		line-height: 5.581vw;
+	}
+}
