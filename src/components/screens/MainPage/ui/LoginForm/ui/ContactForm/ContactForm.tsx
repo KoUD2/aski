@@ -43,8 +43,8 @@ const ContactForm = () => {
 		Email: 'email',
 	}
 
-	const isPhoneField =
-		selectedMethod === 'Telegram' || selectedMethod === 'WhatsApp'
+	const isPhoneField = selectedMethod === 'WhatsApp'
+	const isTelegramField = selectedMethod === 'Telegram'
 	const isEmailField = selectedMethod === 'Email'
 
 	const handleSubmit = async () => {
@@ -120,9 +120,9 @@ const ContactForm = () => {
 					</div>
 				)}
 
-				{(isPhoneField || isEmailField) && (
+				{(isPhoneField || isEmailField || isTelegramField) && (
 					<input
-						type={isEmailField ? 'email' : 'tel'}
+						type={isEmailField ? 'email' : isPhoneField ? 'tel' : 'text'}
 						placeholder={
 							selectedMethod === 'Telegram'
 								? 'Ник в телеграм'
