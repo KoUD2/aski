@@ -17,6 +17,10 @@
 	gap: 3.209vw;
 }
 
+.wrapperButton {
+	display: none;
+}
+
 .link {
 	text-decoration: none;
 	color: var(--main-text);
@@ -48,7 +52,7 @@
 }
 
 .activeLink {
-	color: var(--additional_violet, #9092E3);
+	color: var(--additional_violet, #9092e3);
 }
 
 @media (width <= 480px) {
@@ -57,6 +61,15 @@
 		gap: 0;
 		justify-content: space-between;
 		width: 87.907vw;
+	}
+
+	.linksWrapper,
+	.button {
+		display: none;
+	}
+
+	.wrapperButton {
+		display: block;
 	}
 
 	.logo {
@@ -70,10 +83,10 @@
 		justify-content: center;
 		width: 11.163vw;
 		height: 11.163vw;
-		border: 0.233vw solid var(--dark_gray_stroke, #2E2E2E);
+		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
 		border-radius: 8.997vw;
 		outline: none;
-		background: var(--almost_black, #0C0C0C);
+		background: var(--almost_black, #0c0c0c);
 	}
 
 	.buttonBurgerMenuImage {
