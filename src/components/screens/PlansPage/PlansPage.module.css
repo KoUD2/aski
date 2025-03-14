@@ -1,22 +1,24 @@
 .wrapper {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+
 	gap: 8.333vw;
-	padding-bottom: 1.709vw;
 }
 
 .wrapperCards {
 	display: flex;
 	align-items: center;
 	gap: 1.042vw;
+
 	align-self: stretch;
 }
 
 .wrapperStatements {
 	display: flex;
-	width: 19.01vw;
 	flex-direction: column;
+
+	width: 19.01vw;
 	gap: 0.625vw;
 }
 
@@ -32,71 +34,81 @@
 
 .statementText {
 	color: #fff;
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
 }
+
 .wrapperButtons {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: fit-content;
 	padding: 0.417vw;
-	justify-content: center;
-	align-items: center;
-	gap: 0.625vw;
+
 	border-radius: 0.833vw;
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	background: var(--card_bg, rgb(92 92 92 / 15%));
+	gap: 0.625vw;
 	backdrop-filter: blur(0.781vw);
 }
+
 .button {
-	cursor: pointer;
 	display: flex;
-	background: transparent;
+	align-items: center;
+	justify-content: center;
+
 	height: 2.188vw;
 	padding: 0.417vw 1.25vw;
-	justify-content: center;
-	align-items: center;
-	border-radius: 0.625vw;
-	border: none;
-	outline: none;
-	color: #f0f0f0;
+
+	cursor: pointer;
 	text-align: center;
+
+	color: #f0f0f0;
+	border: none;
+	border-radius: 0.625vw;
+	outline: none;
+	background: transparent;
+
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 100%;
 }
 
 .activeButton {
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	background: var(--card_bg, rgb(92 92 92 / 15%));
 }
 
 .wrapperTarifications {
-	margin-top: -26.041vw;
 	display: flex;
-	width: 70.833vw;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+
+	width: 70.833vw;
+	margin-top: -26.041vw;
 	gap: 2.813vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		gap: 23.256vw;
-		padding-bottom: 3.721vw;
 	}
 
 	.wrapperTarifications {
+		width: fit-content;
 		margin-top: -116.041vw;
 		gap: 4.651vw;
-		width: fit-content;
 	}
 
 	.wrapperButtons {
 		padding: 1.86vw;
 		gap: 2.791vw;
+
 		border-radius: 3.721vw;
 		backdrop-filter: blur(3.488vw);
 	}
@@ -109,13 +121,16 @@
 	.button {
 		height: 42px;
 		padding: 8px 24px;
+
 		border-radius: 12px;
+
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}
 
 	.wrapperCards {
 		gap: 4.651vw;
+
 		flex-direction: column;
 	}
 

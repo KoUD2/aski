@@ -1,15 +1,16 @@
 .wrapper {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+
 	gap: 8.333vw;
-	padding-bottom: 1.709vw;
 }
 
 .wrapperHeadInfo {
 	display: flex;
 	align-items: flex-start;
 	gap: 1.042vw;
+
 	margin-top: -26vw;
 }
 
@@ -21,15 +22,16 @@
 	margin: 0;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		gap: 23.256vw;
-		padding-bottom: 3.721vw;
 	}
 
 	.wrapperHeadInfo {
 		gap: 4.651vw;
+
 		flex-direction: column;
+
 		margin-top: -122vw;
 	}
 }

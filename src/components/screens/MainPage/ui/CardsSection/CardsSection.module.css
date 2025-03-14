@@ -1,11 +1,12 @@
 .cardWrapper {
-	margin-top: -15vw;
 	display: flex;
 	align-items: center;
+
+	margin-top: -15vw;
 	gap: 1.042vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.cardWrapper {
 		margin-top: -80vw;
 		gap: 2.791vw;

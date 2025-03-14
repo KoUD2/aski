@@ -1,6 +1,5 @@
 'use client'
 
-import Footer from '@/components/ui/Footer/Footer'
 import CircleCheck from '@/shared/images/Circle_Check.svg'
 import Image from 'next/image'
 import { FC, useState } from 'react'
@@ -270,7 +269,6 @@ const PlansPage: FC = () => {
 			</div>
 			<SettingsTarification />
 			<TarificationTable />
-			<Footer />
 		</div>
 	)
 }

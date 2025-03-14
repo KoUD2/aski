@@ -1,4 +1,3 @@
-import Footer from '@/components/ui/Footer/Footer'
 import { FC } from 'react'
 import HeaderSection from '../MainPage/ui/HeaderSection/HeaderSection'
 import styles from './CasesPage.module.css'
@@ -17,7 +16,6 @@ const CasesPage: FC = () => {
 			<div className={styles.wrapperCards}>
 				<Feedbacks />
 			</div>
-			<Footer />
 		</div>
 	)
 }

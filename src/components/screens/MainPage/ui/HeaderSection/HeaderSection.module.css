@@ -1,35 +1,39 @@
 .wrapper {
 	display: flex;
+	overflow: hidden;
 	justify-content: center;
+
 	width: 100%;
 	height: 60.115vw;
-	overflow: hidden;
 }
 
 .header {
-	margin-top: -64.436vw;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+	flex-shrink: 0;
+
 	width: 103.802vw;
 	height: 103.802vw;
-	flex-shrink: 0;
-	aspect-ratio: 1/1;
+	margin-top: -64.436vw;
+
 	border-radius: 103.802vw;
 	background: var(--almost-black, #0c0c0c);
-	box-shadow: 0vw 0vw 8.594vw 0.885vw #9092e3, 0vw 0vw 13.021vw 7.5vw #1f4ba5,
-		-2.604vw 0vw 4.542vw -1.823vw #9092e3 inset,
-		2.604vw 0vw 4.542vw -1.823vw #9092e3 inset,
-		0vw 0vw 7.276vw 4.167vw #1f4ba5 inset;
+	box-shadow: 0 0 8.594vw 0.885vw #9092e3, 0 0 13.021vw 7.5vw #1f4ba5,
+		-2.604vw 0 4.542vw -1.823vw #9092e3 inset,
+		2.604vw 0 4.542vw -1.823vw #9092e3 inset,
+		0 0 7.276vw 4.167vw #1f4ba5 inset;
+	aspect-ratio: 1/1;
 }
 
 .content {
-	margin-top: 79.946vw;
 	/* margin-top: 95.946vw; */
 	display: flex;
-	width: 63.594vw;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+
+	width: 63.594vw;
+	margin-top: 79.946vw;
 	gap: 2.292vw;
 }
 
@@ -39,28 +43,32 @@
 
 .texts {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
 	gap: 1.042vw;
 }
 
 .title {
-	color: var(--main-text);
 	text-align: center;
+
+	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 3.854vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 90%;
 }
 
 .description {
-	color: var(--desc-text);
 	text-align: center;
+
+	color: var(--desc-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
 }
 
@@ -69,26 +77,31 @@
 }
 
 .button {
-	cursor: pointer;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	height: 2.708vw;
 	padding: 0.885vw 2.24vw;
-	justify-content: center;
-	align-items: center;
-	gap: 0.208vw;
-	border-radius: 0.625vw;
-	background: var(--accent);
+
+	cursor: pointer;
+
 	border: none;
+	border-radius: 0.625vw;
 	outline: none;
+	background: var(--accent);
+	gap: 0.208vw;
 }
 
 .buttonText {
-	color: var(--main-text);
 	text-align: center;
+
+	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: normal;
 }
 
@@ -98,16 +111,19 @@
 }
 
 .mainInfo {
-	margin-top: 7.813vw;
 	width: 39.844vw;
-	color: rgba(255, 255, 255, 0.3);
+	margin-top: 7.813vw;
+
+	text-align: center;
+	letter-spacing: -0.019vw;
+
+	color: rgb(255 255 255 / 30%);
+
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 100%;
-	letter-spacing: -0.019vw;
-	text-align: center;
 }
 
 .spanMainInfo {
@@ -116,42 +132,48 @@
 
 .integrationsWrapper {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+
+	padding: 1px;
+
+	border-radius: 1.304vw;
 	background: radial-gradient(
 			38% 22.92% at 48.31% 110.42%,
-			rgba(255, 255, 255, 0.8) 20.03%,
-			rgba(255, 255, 255, 0) 100%
+			rgb(255 255 255 / 80%) 20.03%,
+			rgb(255 255 255 / 0%) 100%
 		),
 		linear-gradient(
 			101deg,
 			#fff -13.72%,
-			rgba(255, 255, 255, 0.1) 18.13%,
-			rgba(255, 255, 255, 0.1) 69.16%,
+			rgb(255 255 255 / 10%) 18.13%,
+			rgb(255 255 255 / 10%) 69.16%,
 			#fff 115.71%
 		);
-	border-radius: 1.304vw;
-	padding: 1px;
 }
 
 .integrations {
 	display: flex;
-	padding: 0.313vw 0.677vw;
-	justify-content: center;
 	align-items: center;
-	gap: 0.521vw;
+	justify-content: center;
+
+	padding: 0.313vw 0.677vw;
+
 	border-radius: 1.304vw;
 	background: #191919;
+	gap: 0.521vw;
 }
 
 .integrationsText {
-	color: var(--main-text);
 	text-align: center;
-	text-shadow: 0vw 0.019vw 0.037vw rgba(0, 0, 0, 0.1);
+
+	color: var(--main-text);
+	text-shadow: 0 0.019vw 0.037vw rgb(0 0 0 / 10%);
+
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: normal;
 }
 
@@ -160,27 +182,28 @@
 	height: 1.25vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		height: 220.115vw;
 	}
 
 	.header {
-		margin-top: -73.026vw;
 		width: 182.49vw;
 		height: 182.49vw;
+		margin-top: -73.026vw;
+
 		border-radius: 182.49vw;
 		background: var(--almost_black, #0c0c0c);
-		box-shadow: 0vw 0vw 38.372vw 3.953vw #9092e3,
-			0vw 0vw 58.14vw 33.488vw #1f4ba5,
-			-11.628vw 0vw 20.279vw -8.14vw #9092e3 inset,
-			11.628vw 0vw 20.279vw -8.14vw #9092e3 inset,
-			0vw 0vw 32.488vw 18.605vw #1f4ba5 inset;
+		box-shadow: 0 0 38.372vw 3.953vw #9092e3,
+			0 0 58.14vw 33.488vw #1f4ba5,
+			-11.628vw 0 20.279vw -8.14vw #9092e3 inset,
+			11.628vw 0 20.279vw -8.14vw #9092e3 inset,
+			0 0 32.488vw 18.605vw #1f4ba5 inset;
 	}
 
 	.content {
-		margin-top: 98.228vw;
 		width: 92.558vw;
+		margin-top: 98.228vw;
 		gap: 5.581vw;
 	}
 
@@ -210,6 +233,7 @@
 		height: 12.093vw;
 		padding: 3.953vw 10vw;
 		gap: 0.208vw;
+
 		border-radius: 2.791vw;
 	}
 
@@ -218,11 +242,13 @@
 	}
 
 	.mainInfo {
-		margin-top: 23.256vw;
 		width: 92.558vw;
+		margin-top: 23.256vw;
+
+		letter-spacing: -0.14vw;
+
 		font-size: 5.116vw;
 		line-height: 120%;
-		letter-spacing: -0.14vw;
 	}
 
 	.integrationsWrapper {
@@ -230,13 +256,15 @@
 	}
 
 	.integrations {
-		border-radius: 5.814vw;
 		padding: 1.395vw 2.326vw;
+
+		border-radius: 5.814vw;
 		gap: 1.86vw;
 	}
 
 	.integrationsText {
-		text-shadow: 0vw 0.083vw 0.166vw rgba(0, 0, 0, 0.1);
+		text-shadow: 0 0.083vw 0.166vw rgb(0 0 0 / 10%);
+
 		font-size: 3.256vw;
 	}
 

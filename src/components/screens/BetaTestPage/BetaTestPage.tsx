@@ -1,4 +1,3 @@
-import Footer from '@/components/ui/Footer/Footer'
 import { FC } from 'react'
 import HeaderSection from '../MainPage/ui/HeaderSection/HeaderSection'
 import ContactForm from '../MainPage/ui/LoginForm/ui/ContactForm/ContactForm'
@@ -25,8 +24,6 @@ const BetaTestPage: FC = () => {
 				</div>
 				<ContactForm />
 			</div>
-
-			<Footer />
 		</div>
 	)
 }

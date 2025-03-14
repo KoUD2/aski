@@ -1,3 +1,4 @@
+import Footer from '@/components/ui/Footer/Footer'
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import '../assets/styles/globals.css'
@@ -23,35 +24,37 @@ export const metadata: Metadata = {
 	formatDetection: {
 		telephone: false,
 	},
+
+	openGraph: {
+		title: 'Aski',
+		description: 'Aski зафиксирует все важные детали созвона в единой системе',
+		url: 'https://www.aski.site',
+		type: 'website',
+		siteName: 'Aski',
+		images: [
+			{
+				url: '/Main.png',
+				width: 1200,
+				height: 630,
+				alt: 'Aski',
+			},
+		],
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Aski',
+		description: 'Aski зафиксирует все важные детали созвона в единой системе',
+		images: [
+			{
+				url: '/Main.png',
+				width: 1200,
+				height: 630,
+				alt: 'Aski',
+			},
+		],
+	},
+
 	metadataBase: new URL('https://www.aski.site'),
-	// openGraph: {
-	// 	title: 'Aski',
-	// 	description: 'Aski зафиксирует все важные детали созвона в единой системе',
-	// 	url: 'https://www.aski.site',
-	// 	type: 'website',
-	// 	siteName: 'Aski',
-	// 	images: [
-	// 		{
-	// 			url: '/og-image.jpg',
-	// 			width: 1200,
-	// 			height: 630,
-	// 			alt: 'Aski',
-	// 		},
-	// 	],
-	// },
-	// twitter: {
-	// 	card: 'summary_large_image',
-	// 	title: 'Разработка лендингов для бизнеса',
-	// 	description: 'Увеличьте конверсии с нашим лендингом для бизнеса!',
-	// 	images: [
-	// 		{
-	// 			url: '/images/landing.jpg',
-	// 			width: 1200,
-	// 			height: 630,
-	// 			alt: 'Aski',
-	// 		},
-	// 	],
-	// },
 	verification: {
 		google: 'oOSepLbNQnHESUoF2Pv5O63eJQxlDJe_XOjkOatBb9g',
 		yandex: '3fb36e2ff994b1fd',
@@ -68,9 +71,12 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang='en'>
-			<body className={`${geistSans.variable} ${geistMono.variable}`}>
+		<html lang='en' style={{ overflowX: 'hidden' }}>
+			<body
+				className={`${geistSans.variable} ${geistMono.variable} mainWrapper`}
+			>
 				{children}
+				<Footer />
 			</body>
 		</html>
 	)

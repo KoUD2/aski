@@ -1,19 +1,22 @@
 .wrapper {
 	display: flex;
-	height: 37.635vw;
-	width: 13.2vw;
-	padding: 1.181vw;
 	flex-direction: column;
 	justify-content: space-between;
-	border-radius: 1.181vw;
+
+	width: 13.2vw;
+	height: 37.635vw;
+	padding: 1.181vw;
+
 	border: 0.037vw solid var(--dark_gray_stroke);
+	border-radius: 1.181vw;
 	background: var(--almost_black);
 }
 
 .wrapperHead {
 	display: flex;
-	width: 8.228vw;
 	flex-direction: column;
+
+	width: 8.228vw;
 	gap: 3.69vw;
 }
 
@@ -41,10 +44,11 @@
 
 .linkText {
 	color: var(--gray);
+
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 100%;
 }
 
@@ -61,8 +65,9 @@
 .avatar {
 	width: 1.771vw;
 	height: 1.771vw;
-	border-radius: 34.004px;
+
 	border: 0.037vw solid var(--white, #fff);
+	border-radius: 34.004px;
 }
 
 .naming {
@@ -74,28 +79,32 @@
 
 .name {
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.664vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 110%;
 }
+
 .positioning {
 	color: var(--gray);
+
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 100%;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
+		width: 17.8vw;
 		height: 51.51vw;
 		padding: 1.579vw;
-		border-radius: 1.579vw;
+
 		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
-		width: 17.8vw;
+		border-radius: 1.579vw;
 	}
 
 	.wrapperHead {
@@ -135,8 +144,9 @@
 	.avatar {
 		width: 2.368vw;
 		height: 2.368vw;
-		border-radius: 2.368vw;
+
 		border: 0.049vw solid var(--white, #fff);
+		border-radius: 2.368vw;
 	}
 
 	.naming {
@@ -147,6 +157,7 @@
 		font-size: 0.888vw;
 		line-height: 110%;
 	}
+
 	.positioning {
 		font-size: 0.74vw;
 		line-height: 100%;

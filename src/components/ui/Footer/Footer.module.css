@@ -1,29 +1,33 @@
 .wrapper {
 	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
 	width: 96.667vw;
 	height: 18.333vw;
 	padding: 1.719vw;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 2.5vw;
-	border-radius: 0.833vw;
+
 	border: 0.052vw solid #2c2c2c;
-	background: rgba(27, 26, 27, 0.8);
+	border-radius: 0.833vw;
+	background: rgb(27 26 27 / 80%);
+	gap: 2.5vw;
 	backdrop-filter: blur(0.521vw);
 }
 
 .wrapperFooter {
 	display: flex;
-	width: 93.229vw;
 	flex-direction: column;
+
+	width: 93.229vw;
 	gap: 1.302vw;
 }
 
 .line {
-	height: 1px;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.25);
+	height: 1px;
+
+	background-color: rgb(255 255 255 / 25%);
 }
 
 .wrapperLinks {
@@ -33,10 +37,11 @@
 
 .linksText {
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.833vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1vw;
 }
 
@@ -47,11 +52,12 @@
 
 .wrapperContent {
 	display: flex;
-	height: 9.896vw;
-	justify-content: center;
-	width: 100%;
-	justify-content: space-between;
 	flex-shrink: 0;
+	justify-content: center;
+	justify-content: space-between;
+
+	width: 100%;
+	height: 9.896vw;
 }
 
 .wrapperLogoContent {
@@ -62,6 +68,7 @@
 .wrapperConfEmail {
 	display: flex;
 	gap: 10.731vw;
+
 	margin-right: 5.417vw;
 }
 
@@ -78,10 +85,11 @@
 
 .componentText {
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.833vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1vw;
 }
 
@@ -93,31 +101,35 @@
 
 .confTitle {
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 1.031vw;
 }
 
 .confText {
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.833vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
+		justify-content: flex-start;
+
 		width: 92.558vw;
 		height: fit-content;
 		padding: 7.442vw;
-		justify-content: flex-start;
-		gap: 11.163vw;
-		border-radius: 3.721vw;
+
 		border: 0.233vw solid #2c2c2c;
+		border-radius: 3.721vw;
+		gap: 11.163vw;
 		backdrop-filter: blur(2.326vw);
 	}
 
@@ -144,7 +156,9 @@
 	.wrapperContent {
 		flex-direction: column;
 		gap: 11.628vw;
+
 		justify-content: flex-start;
+
 		height: fit-content;
 	}
 
@@ -156,6 +170,7 @@
 	.wrapperConfEmail {
 		display: flex;
 		gap: 3.488vw;
+
 		margin-right: 0;
 	}
 

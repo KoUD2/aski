@@ -1,94 +1,110 @@
 .wrapper {
 	position: relative;
+
 	display: flex;
+	overflow: hidden;
+	align-items: center;
+	flex-direction: column;
+
 	width: 22.917vw;
 	height: 35.26vw;
-	padding: 0vw 0.052vw;
-	flex-direction: column;
-	align-items: center;
-	gap: 1.667vw;
-	border-radius: 0.625vw;
+	padding: 0 0.052vw;
+
 	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	border-radius: 0.625vw;
+	background: var(--card_bg, rgb(92 92 92 / 15%));
+	gap: 1.667vw;
 	backdrop-filter: blur(0.521vw);
-	overflow: hidden;
 }
 
 .wrapperHeader {
 	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-shrink: 0;
+
 	width: 22.917vw;
 	height: 12.865vw;
 	padding: 1.667vw 1.719vw;
-	flex-direction: column;
-	align-items: center;
 	gap: 0.833vw;
-	flex-shrink: 0;
 }
 
 .headerName {
-	color: #fff;
 	text-align: center;
+	letter-spacing: -0.019vw;
+
+	color: #fff;
+
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 120%; /* 2vw */
-	letter-spacing: -0.019vw;
 }
 
 .headerPrice {
-	color: #fff;
 	text-align: center;
+	letter-spacing: -0.019vw;
+
+	color: #fff;
+
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 120%;
-	letter-spacing: -0.019vw;
 }
 
 .headerDesc {
-	color: #858585;
 	width: 19.279vw;
+
 	text-align: center;
+
+	color: #858585;
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
 }
 
 .headerButton {
-	cursor: pointer;
-	outline: none;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 19.583vw;
 	height: 2.708vw;
 	padding: 0.885vw 2.813vw;
-	justify-content: center;
-	align-items: center;
-	gap: 0.521vw;
-	border-radius: 0.625vw;
-	background: var(--white, #fff);
-	color: var(--almost_black, #0c0c0c);
+
+	cursor: pointer;
 	text-align: center;
+
+	color: var(--almost_black, #0c0c0c);
+	border: none;
+	border-radius: 0.625vw;
+	outline: none;
+	background: var(--white, #fff);
+
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: normal;
-	border: none;
-	outline: none;
+	gap: 0.521vw;
 }
 
 .circle {
 	position: absolute;
+	bottom: -13.603vw;
+
 	width: 19.436vw;
 	height: 19.436vw;
+
 	border-radius: 19.436vw;
 	background: var(--accent, #0638bd);
 	filter: blur(5.208vw);
-	bottom: -13.603vw;
 }
 
 .wrapperPrice {
@@ -99,63 +115,72 @@
 
 .periodText {
 	color: var(--white, #fff);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		width: 92.558vw;
 		height: 127.209vw;
-		padding: 0vw 4.651vw;
-		gap: 4.651vw;
-		border-radius: 2.791vw;
+		padding: 0 4.651vw;
+
 		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+		border-radius: 2.791vw;
+		gap: 4.651vw;
 		backdrop-filter: blur(2.326vw);
 	}
 
 	.wrapperHeader {
 		width: 83.256vw;
 		height: fit-content;
-		padding: 4.651vw 0 0 0;
+		padding: 4.651vw 0 0;
 		gap: 4.651vw;
 	}
 
 	.headerName {
+		letter-spacing: -0.14vw;
+
 		font-size: 5.116vw;
 		line-height: 120%;
-		letter-spacing: -0.14vw;
 	}
 
 	.headerPrice {
+		letter-spacing: -0.14vw;
+
 		font-size: 5.116vw;
 		line-height: 120%;
-		letter-spacing: -0.14vw;
 	}
 
 	.headerDesc {
+		width: fit-content;
+
 		font-size: 3.721vw;
 		line-height: 5.581vw;
-		width: fit-content;
 	}
 
 	.headerButton {
 		width: 83.256vw;
 		height: 12.093vw;
 		padding: 3.953vw 5.581vw;
+
 		border-radius: 2.791vw;
+
 		font-size: 3.256vw;
 	}
 
 	.circle {
+		bottom: -83.414vw;
+
 		width: 86.785vw;
 		height: 86.785vw;
+
 		border-radius: 86.785vw;
 		filter: blur(23.256vw);
-		bottom: -83.414vw;
 	}
 
 	.wrapperPrice {

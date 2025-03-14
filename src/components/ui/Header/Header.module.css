@@ -1,6 +1,7 @@
 .header {
 	position: absolute;
 	top: 2.083vw;
+
 	display: inline-flex;
 	align-items: center;
 	gap: 17.656vw;
@@ -18,32 +19,38 @@
 }
 
 .link {
-	color: var(--main-text);
 	text-decoration: none;
+
+	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: normal;
 }
 
 .button {
-	cursor: pointer;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 9.375vw;
 	height: 2.708vw;
-	justify-content: center;
-	align-items: center;
-	border-radius: 0.625vw;
-	background: var(--main-text);
-	border: none;
-	outline: none;
-	color: var(--almost-black);
+
+	cursor: pointer;
 	text-align: center;
+
+	color: var(--almost-black);
+	border: none;
+	border-radius: 0.625vw;
+	outline: none;
+	background: var(--main-text);
+
 	font-family: 'Inter Tight', serif;
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: normal;
 }
 
@@ -51,11 +58,13 @@
 	color: var(--additional_violet, #9092e3);
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.header {
 		top: 4.735vw;
 		gap: 0;
+
 		justify-content: space-between;
+
 		width: 87.907vw;
 	}
 
@@ -66,14 +75,16 @@
 
 	.wrapperButton {
 		display: flex;
+		align-items: center;
+		justify-content: center;
+
 		width: 11.163vw;
 		height: 11.163vw;
-		justify-content: center;
-		align-items: center;
-		border-radius: 8.997vw;
+
 		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
-		background: var(--almost_black, #0c0c0c);
+		border-radius: 8.997vw;
 		outline: none;
+		background: var(--almost_black, #0c0c0c);
 	}
 
 	.buttonBurgerMenuImage {

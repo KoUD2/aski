@@ -1,13 +1,15 @@
 .wrapper {
 	display: flex;
+	flex-direction: column;
+
 	width: 22.656vw;
 	height: 10.781vw;
 	padding: 1.25vw;
-	flex-direction: column;
-	gap: 1.667vw;
-	border-radius: 0.625vw;
+
 	border: 1px solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	border-radius: 0.625vw;
+	background: var(--card_bg, rgb(92 92 92 / 15%));
+	gap: 1.667vw;
 }
 
 .wrapperTexts {
@@ -18,16 +20,17 @@
 }
 
 .img {
-	height: 2.552vw;
 	width: auto;
+	height: 2.552vw;
 }
 
 .text {
 	color: var(--white, #fff);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
 }
 
@@ -38,16 +41,19 @@
 }
 
 .button {
-	border: none;
-	outline: none;
-	cursor: pointer;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 2.083vw;
 	height: 2.083vw;
-	justify-content: center;
-	align-items: center;
+
+	cursor: pointer;
+
+	border: none;
 	border-radius: 26.042vw;
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	outline: none;
+	background: var(--card_bg, rgb(92 92 92 / 15%));
 }
 
 .svg {
@@ -62,36 +68,42 @@
 
 .input {
 	display: flex;
-	width: 3.854vw;
-	height: 2.083vw;
+	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+
+	width: 3.854vw;
+	height: 2.083vw;
+
 	text-align: center;
-	align-items: center;
-	gap: 0.521vw;
-	border-radius: 0.417vw;
-	background: var(--almost_black, #0c0c0c);
+
 	color: var(--white, #fff);
+	border: none;
+	border-radius: 0.417vw;
+	outline: none;
+	background: var(--almost_black, #0c0c0c);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
-	border: none;
-	outline: none;
+	gap: 0.521vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		width: 44.884vw;
 		height: 50.465vw;
 		padding: 4.651vw;
 		gap: 7.442vw;
+
 		border-radius: 2.791vw;
 	}
 
 	.wrapperTexts {
 		gap: 8px;
+
 		flex-direction: column;
 	}
 
@@ -111,6 +123,7 @@
 	.button {
 		width: 9.302vw;
 		height: 9.302vw;
+
 		border-radius: 116.279vw;
 	}
 
@@ -122,7 +135,9 @@
 	.input {
 		width: 15.116vw;
 		height: 9.302vw;
+
 		border-radius: 1.86vw;
+
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}

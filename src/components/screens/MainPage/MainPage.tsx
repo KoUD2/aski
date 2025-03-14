@@ -1,6 +1,5 @@
 'use client'
 
-import Footer from '@/components/ui/Footer/Footer'
 import { FC, useReducer } from 'react'
 import styles from './MainPage.module.css'
 import CardsSection from './ui/CardsSection/CardsSection'
@@ -48,7 +47,6 @@ const MainPage: FC = () => {
 			<Tarification />
 			<SettingsTarification />
 			<LoginForm />
-			<Footer />
 		</div>
 	)
 }

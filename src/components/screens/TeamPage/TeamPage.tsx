@@ -1,4 +1,3 @@
-import Footer from '@/components/ui/Footer/Footer'
 import AvatarC from '@/shared/images/AvatarC.png'
 
 import { FC } from 'react'
@@ -42,8 +41,6 @@ const TeamPage: FC = () => {
 			</Feedback>
 
 			<Mission />
-
-			<Footer />
 		</div>
 	)
 }

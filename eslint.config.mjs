@@ -16,6 +16,10 @@ const eslintConfig = [
 		rules: {
 			'@typescript-eslint/no-explicit-any': 'off',
 		},
+
+		extends: {
+			plugin: 'react-hooks/recommended',
+		},
 	},
 ]
 

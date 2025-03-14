@@ -1,19 +1,21 @@
 .wrapper {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
 	gap: 2.813vw;
 }
 
 .missionTitle {
-	color: #fff;
 	text-align: center;
+	letter-spacing: -0.026vw;
+
+	color: #fff;
+
 	font-family: 'Inter Tight';
 	font-size: 3.333vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 90%; /* 3vw */
-	letter-spacing: -0.026vw;
 }
 
 .wrapperCards {
@@ -26,7 +28,7 @@
 	margin-left: -0.8vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		gap: 12.558vw;
 	}
@@ -44,6 +46,7 @@
 	.cardImg {
 		margin-left: -3.8vw;
 	}
+
 	.cardImg2 {
 		margin-left: -1.5vw;
 	}

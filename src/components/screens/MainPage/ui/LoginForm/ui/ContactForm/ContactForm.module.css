@@ -1,54 +1,63 @@
 .formContainer {
 	display: flex;
-	width: 34.896vw;
-	flex-direction: column;
 	align-items: flex-start;
+	flex-direction: column;
+
+	width: 34.896vw;
 	gap: 0.625vw;
 }
 
 .inputField {
-	border: none;
-	outline: none;
 	display: flex;
-	padding: 1.094vw 1.042vw;
 	align-items: center;
-	gap: 0.521vw;
 	align-self: stretch;
-	border-radius: 0.625vw;
-	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+
+	padding: 1.094vw 1.042vw;
+
 	color: white;
+	border: none;
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	border-radius: 0.625vw;
+	outline: none;
+	background: var(--card_bg, rgb(92 92 92 / 15%));
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw; /* 140% */
+	gap: 0.521vw;
 }
 
 .dropdownText {
 	color: #fff;
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw; /* 140% */
 }
 
 .dropdownBtn {
-	cursor: pointer;
 	display: flex;
-	padding: 1.094vw 1.042vw;
-	justify-content: space-between;
 	align-items: center;
 	align-self: stretch;
-	border-radius: 0.625vw;
+	justify-content: space-between;
+
+	padding: 1.094vw 1.042vw;
+
+	cursor: pointer;
+
 	border: 1px solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	border-radius: 0.625vw;
+	background: var(--card_bg, rgb(92 92 92 / 15%));
 }
 
 .dropdownImg {
 	width: 1.25vw;
 	height: 1.25vw;
+
 	transition: all 0.2s ease-out;
 }
 
@@ -58,65 +67,75 @@
 
 .dropdownMenu {
 	display: flex;
-	width: 34.896vw;
-	flex-direction: column;
 	align-items: flex-start;
 	align-self: stretch;
+	flex-direction: column;
+
+	width: 34.896vw;
 }
 
 .dropdownItem {
-	cursor: pointer;
 	display: flex;
-	padding: 1.094vw 1.042vw;
 	align-items: center;
-	gap: 0.521vw;
 	align-self: stretch;
-	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+
+	padding: 1.094vw 1.042vw;
+
+	cursor: pointer;
 	transition: background 0.3s ease-out;
 
+	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	background: var(--card_bg, rgb(92 92 92 / 15%));
+	gap: 0.521vw;
+
 	&:hover {
-		background: rgba(255, 255, 255, 0.2);
+		background: rgb(255 255 255 / 20%);
 	}
 }
 
 .iconText {
 	color: var(--white, #fff);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw; /* 140% */
 }
 
 .wrapper {
 	display: flex;
-	width: 34.896vw;
-	flex-direction: column;
 	align-items: flex-start;
+	flex-direction: column;
+
+	width: 34.896vw;
 	gap: 1.51vw;
 }
 
 .submitBtn {
-	cursor: pointer;
 	display: flex;
+	align-items: center;
+	align-self: stretch;
+	justify-content: center;
+
 	height: 2.708vw;
 	padding: 0.885vw 2.24vw;
-	justify-content: center;
-	align-items: center;
-	gap: 0.521vw;
-	align-self: stretch;
-	border-radius: 0.625vw;
-	background: var(--accent, #0638bd);
-	border: none;
-	outline: none;
-	color: var(--white, #fff);
+
+	cursor: pointer;
 	text-align: center;
+
+	color: var(--white, #fff);
+	border: none;
+	border-radius: 0.625vw;
+	outline: none;
+	background: var(--accent, #0638bd);
+
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: normal;
+	gap: 0.521vw;
 }
 
 .icon {
@@ -125,13 +144,14 @@
 }
 
 .telegramBtn {
-	border-radius: 12px 12px 0px 0px;
-}
-.emailBtn {
-	border-radius: 0px 0px 12px 12px;
+	border-radius: 12px 12px 0 0;
 }
 
-@media (max-width: 480px) {
+.emailBtn {
+	border-radius: 0 0 12px 12px;
+}
+
+@media (width <= 480px) {
 	.formContainer {
 		width: 92.558vw;
 		gap: 2.791vw;
@@ -139,11 +159,13 @@
 
 	.inputField {
 		padding: 4.884vw 4.651vw;
-		gap: 2.326vw;
-		border-radius: 2.791vw;
+
 		border: 0.233vw solid #2e2e2e;
+		border-radius: 2.791vw;
+
 		font-size: 3.721vw;
 		line-height: 5.581vw;
+		gap: 2.326vw;
 	}
 
 	.dropdownText {
@@ -153,6 +175,7 @@
 
 	.dropdownBtn {
 		padding: 4.884vw 4.651vw;
+
 		border-radius: 2.791vw;
 	}
 
@@ -168,6 +191,7 @@
 	.dropdownItem {
 		padding: 4.884vw 4.651vw;
 		gap: 2.326vw;
+
 		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
 	}
 
@@ -184,7 +208,9 @@
 	.submitBtn {
 		height: 12.093vw;
 		padding: 3.953vw 10vw;
+
 		border-radius: 2.791vw;
+
 		font-size: 3.256vw;
 	}
 
@@ -194,9 +220,10 @@
 	}
 
 	.telegramBtn {
-		border-radius: 2.791vw 2.791vw 0vw 0vw;
+		border-radius: 2.791vw 2.791vw 0 0;
 	}
+
 	.emailBtn {
-		border-radius: 0vw 0vw 2.791vw 2.791vw;
+		border-radius: 0 0 2.791vw 2.791vw;
 	}
 }

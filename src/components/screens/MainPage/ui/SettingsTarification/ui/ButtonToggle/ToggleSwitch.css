@@ -1,15 +1,19 @@
 .toggle {
-	width: 2.656vw;
-	height: 1.615vw;
-	background: #555;
-	border-radius: 0.977vw;
 	position: relative;
+
 	display: flex;
 	align-items: center;
+
+	width: 2.656vw;
+	height: 1.615vw;
 	padding: 0.104vw;
-	transition: background 0.3s;
-	border: none;
+
 	cursor: pointer;
+	transition: background 0.3s;
+
+	border: none;
+	border-radius: 0.977vw;
+	background: #555;
 }
 
 .toggle.enabled {
@@ -17,15 +21,18 @@
 }
 
 .slider {
-	width: 1.406vw;
-	height: 1.406vw;
-	background: white;
-	border-radius: 50%;
 	position: absolute;
 	left: 0.154vw;
+
+	width: 1.406vw;
+	height: 1.406vw;
+
 	transition: transform 0.3s;
-	filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.06))
-		drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.15));
+
+	border-radius: 50%;
+	background: white;
+	filter: drop-shadow(0 3px 1px rgb(0 0 0 / 6%))
+		drop-shadow(0 3px 8px rgb(0 0 0 / 15%));
 }
 
 .toggle.enabled .slider {

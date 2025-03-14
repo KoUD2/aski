@@ -1,51 +1,61 @@
 .contentWrapper {
 	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 100%;
 	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .wrapper {
 	z-index: -2;
+
 	display: flex;
+	align-items: center;
+
 	width: 70.842vw;
 	height: 39.849vw;
-	border-radius: 2.132vw;
-	border: 0.067vw solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--almost_black, #0c0c0c);
-	align-items: center;
 	padding: 1.107vw;
+
+	border: 0.067vw solid var(--dark_gray_stroke, #2e2e2e);
+	border-radius: 2.132vw;
+	background: var(--almost_black, #0c0c0c);
 }
 
 .circle {
+	position: absolute;
+	z-index: 1;
+
 	width: 29.518vw;
 	height: 29.518vw;
+
 	border-radius: 29.518vw;
 	background: var(--accent);
 	filter: blur(4.612vw);
-	position: absolute;
-	z-index: 1;
 }
 
 .cardsWrapper {
+	position: relative;
+	z-index: 2;
+
 	display: flex;
 	align-items: center;
-	position: relative;
 	gap: 0.738vw;
-	z-index: 2;
 }
 
 .recording {
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 	width: 22.728vw;
 	height: 15.497vw;
 	padding: 1.181vw;
-	flex-direction: column;
-	justify-content: space-between;
-	border-radius: 1.181vw;
+
 	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	border-radius: 1.181vw;
 	background: var(--almost_black, #0c0c0c);
 }
 
@@ -55,14 +65,16 @@
 }
 
 .recordingText {
-	color: var(--main-text);
 	text-align: center;
+	text-align: left;
+
+	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.59vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 150%;
-	text-align: left;
 }
 
 .wrapperMiniCards {
@@ -73,13 +85,15 @@
 
 .miniCard {
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 	width: 10.368vw;
 	height: 7.379vw;
 	padding: 1.181vw;
-	flex-direction: column;
-	justify-content: space-between;
-	border-radius: 1.181vw;
+
 	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	border-radius: 1.181vw;
 	background: var(--almost_black, #0c0c0c);
 }
 
@@ -95,58 +109,66 @@
 
 .wrapperBalance {
 	position: absolute;
+	z-index: 2;
 	top: 2.713vw;
 	right: 7.007vw;
+
 	display: inline-flex;
 	align-items: center;
 	gap: 0.148vw;
-	z-index: 2;
 }
 
 .balanceText {
 	color: #858585;
+
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 100%;
 }
 
 .balanceContainer {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 3.579vw;
 	height: 1.254vw;
 	padding: 0.148vw 0.258vw;
-	justify-content: center;
-	align-items: center;
-	gap: 0.369vw;
-	border-radius: 1.181vw;
+
 	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
-	background: var(--card_bg, rgba(92, 92, 92, 0.15));
+	border-radius: 1.181vw;
+	background: var(--card_bg, rgb(92 92 92 / 15%));
+	gap: 0.369vw;
 }
 
 .balance {
-	color: var(--main-text);
 	text-align: center;
+
+	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 100%;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		width: 92.558vw;
 		height: 54.54vw;
-		border-radius: 2.791vw;
-		border: 0.093vw solid var(--dark_gray_stroke, #2e2e2e);
 		padding: 1.395vw;
+
+		border: 0.093vw solid var(--dark_gray_stroke, #2e2e2e);
+		border-radius: 2.791vw;
 	}
 
 	.circle {
 		width: 39.472vw;
 		height: 39.472vw;
+
 		border-radius: 100%;
 		filter: blur(6.168vw);
 	}
@@ -159,8 +181,9 @@
 		width: 29.696vw;
 		height: 21.21vw;
 		padding: 1.579vw;
-		border-radius: 1.579vw;
+
 		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border-radius: 1.579vw;
 	}
 
 	.recordingImg {
@@ -181,8 +204,9 @@
 		width: 13.546vw;
 		height: 10.1vw;
 		padding: 1.579vw;
-		border-radius: 1.579vw;
+
 		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border-radius: 1.579vw;
 	}
 
 	.aiImg {
@@ -210,9 +234,10 @@
 		width: 4.676vw;
 		height: 1.717vw;
 		padding: 0.197vw 0.345vw;
-		gap: 0.493vw;
-		border-radius: 1.579vw;
+
 		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border-radius: 1.579vw;
+		gap: 0.493vw;
 	}
 
 	.balance {

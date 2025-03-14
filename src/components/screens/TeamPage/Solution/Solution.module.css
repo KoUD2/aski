@@ -5,32 +5,37 @@
 }
 
 .title {
-	color: var(--main-text);
 	text-align: center;
+	letter-spacing: -0.026vw;
+
+	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 3.333vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 90%;
-	letter-spacing: -0.026vw;
 }
 
 .cards {
 	display: flex;
 	align-items: flex-start;
 	gap: 1.042vw;
+
 	align-self: stretch;
 }
 
 .card {
 	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+
 	width: 22.917vw;
 	padding: 1.667vw;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 0.833vw;
+
 	border-radius: 0.625vw;
 	background: var(--card_bg);
+	gap: 0.833vw;
 }
 
 .cardImg {
@@ -45,30 +50,34 @@
 }
 
 .cardTitle {
+	letter-spacing: -0.019vw;
+
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
-	font-style: normal;
 	font-weight: 500;
+	font-style: normal;
 	line-height: 120%;
-	letter-spacing: -0.019vw;
 }
 
 .cardText {
 	color: var(--main-text);
+
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.313vw;
 }
 
 .wrapperMiniCards {
 	display: flex;
-	width: 22.917vw;
-	height: 31.563vw;
 	flex-direction: column;
 	justify-content: space-between;
+
+	width: 22.917vw;
+	height: 31.563vw;
 }
 
 .cardMiniImg {
@@ -78,15 +87,17 @@
 
 .minCards {
 	display: flex;
+	flex-direction: column;
+
 	height: 15.313vw;
 	padding: 1.667vw;
-	flex-direction: column;
-	gap: 1.302vw;
+
 	border-radius: 0.625vw;
 	background: var(--card_bg);
+	gap: 1.302vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.wrapper {
 		margin-top: 18.605vw;
 		gap: 7.442vw;
@@ -110,6 +121,7 @@
 		width: 92.558vw;
 		padding: 7.442vw;
 		gap: 0;
+
 		border-radius: 2.791vw;
 	}
 
@@ -123,8 +135,9 @@
 	}
 
 	.cardTitle {
-		font-size: 5.116vw;
 		letter-spacing: -0.14vw;
+
+		font-size: 5.116vw;
 	}
 
 	.cardText {
@@ -134,10 +147,11 @@
 
 	.wrapperMiniCards {
 		display: flex;
-		width: 22.917vw;
-		height: 31.563vw;
 		flex-direction: column;
 		justify-content: space-between;
+
+		width: 22.917vw;
+		height: 31.563vw;
 	}
 
 	.cardMiniImg {
@@ -147,11 +161,13 @@
 
 	.minCards {
 		display: flex;
+		flex-direction: column;
+
 		height: 15.313vw;
 		padding: 1.667vw;
-		flex-direction: column;
-		gap: 1.302vw;
+
 		border-radius: 0.625vw;
 		background: var(--card_bg);
+		gap: 1.302vw;
 	}
 }

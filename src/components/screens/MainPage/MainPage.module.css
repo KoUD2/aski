@@ -1,21 +1,20 @@
 .mainWrapper {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	padding-bottom: 1.709vw;
+	flex-direction: column;
+
 	gap: 8.333vw;
 }
 
 .wrapperUTP {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
 	gap: 2.083vw;
 }
 
-@media (max-width: 480px) {
+@media (width <= 480px) {
 	.mainWrapper {
-		padding-bottom: 3.721vw;
 		gap: 23.256vw;
 	}
 

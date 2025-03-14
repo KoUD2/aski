@@ -1,4 +1,3 @@
-import Footer from '@/components/ui/Footer/Footer'
 import askiFav from '@/shared/images/askiFav.png'
 import GoogleMeat from '@/shared/images/GoogleMeat.png'
 import mts from '@/shared/images/mts.png'
@@ -115,8 +114,6 @@ const ServicesPage: FC = () => {
 					</div>
 				</div>
 			</div>
-
-			<Footer />
 		</div>
 	)
 }
