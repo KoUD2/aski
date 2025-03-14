@@ -1,16 +1,10 @@
 import Footer from '@/components/ui/Footer/Footer'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter_Tight } from 'next/font/google'
 import '../assets/styles/globals.css'
 
-const geistSans = Geist({
-	variable: '--font-geist-sans',
-	subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
-	subsets: ['latin'],
+const interTight = Inter_Tight({
+	subsets: ['cyrillic'],
 })
 
 export const metadata: Metadata = {
@@ -42,9 +36,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' style={{ overflowX: 'hidden' }}>
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} mainWrapper`}
-			>
+			<body className={`${interTight} mainWrapper`}>
 				{children}
 				<Footer />
 			</body>

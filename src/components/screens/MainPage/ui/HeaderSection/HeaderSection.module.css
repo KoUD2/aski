@@ -2,7 +2,6 @@
 	display: flex;
 	overflow: hidden;
 	justify-content: center;
-
 	width: 100%;
 	height: 60.115vw;
 }
@@ -12,17 +11,17 @@
 	align-items: center;
 	flex-direction: column;
 	flex-shrink: 0;
-
 	width: 103.802vw;
 	height: 103.802vw;
 	margin-top: -64.436vw;
-
 	border-radius: 103.802vw;
-	background: var(--almost-black, #0c0c0c);
-	box-shadow: 0 0 8.594vw 0.885vw #9092e3, 0 0 13.021vw 7.5vw #1f4ba5,
-		-2.604vw 0 4.542vw -1.823vw #9092e3 inset,
-		2.604vw 0 4.542vw -1.823vw #9092e3 inset,
-		0 0 7.276vw 4.167vw #1f4ba5 inset;
+	background: var(--almost-black, #0C0C0C);
+	box-shadow:
+		0 0 8.594vw 0.885vw #9092E3,
+		0 0 13.021vw 7.5vw #1F4BA5,
+		-2.604vw 0 4.542vw -1.823vw #9092E3 inset,
+		2.604vw 0 4.542vw -1.823vw #9092E3 inset,
+		0 0 7.276vw 4.167vw #1F4BA5 inset;
 	aspect-ratio: 1/1;
 }
 
@@ -31,7 +30,6 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 	width: 63.594vw;
 	margin-top: 79.946vw;
 	gap: 2.292vw;
@@ -50,9 +48,7 @@
 
 .title {
 	text-align: center;
-
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 3.854vw;
 	font-weight: 500;
@@ -62,9 +58,7 @@
 
 .description {
 	text-align: center;
-
 	color: var(--desc-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -80,12 +74,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	height: 2.708vw;
 	padding: 0.885vw 2.24vw;
-
 	cursor: pointer;
-
 	border: none;
 	border-radius: 0.625vw;
 	outline: none;
@@ -95,9 +86,7 @@
 
 .buttonText {
 	text-align: center;
-
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
 	font-weight: 500;
@@ -113,12 +102,9 @@
 .mainInfo {
 	width: 39.844vw;
 	margin-top: 7.813vw;
-
 	text-align: center;
 	letter-spacing: -0.019vw;
-
 	color: rgb(255 255 255 / 30%);
-
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-weight: 500;
@@ -134,21 +120,20 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	padding: 1px;
-
 	border-radius: 1.304vw;
-	background: radial-gradient(
+	background:
+		radial-gradient(
 			38% 22.92% at 48.31% 110.42%,
 			rgb(255 255 255 / 80%) 20.03%,
 			rgb(255 255 255 / 0%) 100%
 		),
 		linear-gradient(
 			101deg,
-			#fff -13.72%,
+			#FFF -13.72%,
 			rgb(255 255 255 / 10%) 18.13%,
 			rgb(255 255 255 / 10%) 69.16%,
-			#fff 115.71%
+			#FFF 115.71%
 		);
 }
 
@@ -156,9 +141,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	padding: 0.313vw 0.677vw;
-
 	border-radius: 1.304vw;
 	background: #191919;
 	gap: 0.521vw;
@@ -166,10 +149,8 @@
 
 .integrationsText {
 	text-align: center;
-
 	color: var(--main-text);
 	text-shadow: 0 0.019vw 0.037vw rgb(0 0 0 / 10%);
-
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
 	font-weight: 500;
@@ -191,14 +172,14 @@
 		width: 182.49vw;
 		height: 182.49vw;
 		margin-top: -73.026vw;
-
 		border-radius: 182.49vw;
-		background: var(--almost_black, #0c0c0c);
-		box-shadow: 0 0 38.372vw 3.953vw #9092e3,
-			0 0 58.14vw 33.488vw #1f4ba5,
-			-11.628vw 0 20.279vw -8.14vw #9092e3 inset,
-			11.628vw 0 20.279vw -8.14vw #9092e3 inset,
-			0 0 32.488vw 18.605vw #1f4ba5 inset;
+		background: var(--almost_black, #0C0C0C);
+		box-shadow:
+			0 0 38.372vw 3.953vw #9092E3,
+			0 0 58.14vw 33.488vw #1F4BA5,
+			-11.628vw 0 20.279vw -8.14vw #9092E3 inset,
+			11.628vw 0 20.279vw -8.14vw #9092E3 inset,
+			0 0 32.488vw 18.605vw #1F4BA5 inset;
 	}
 
 	.content {
@@ -233,7 +214,6 @@
 		height: 12.093vw;
 		padding: 3.953vw 10vw;
 		gap: 0.208vw;
-
 		border-radius: 2.791vw;
 	}
 
@@ -244,9 +224,7 @@
 	.mainInfo {
 		width: 92.558vw;
 		margin-top: 23.256vw;
-
 		letter-spacing: -0.14vw;
-
 		font-size: 5.116vw;
 		line-height: 120%;
 	}
@@ -257,14 +235,12 @@
 
 	.integrations {
 		padding: 1.395vw 2.326vw;
-
 		border-radius: 5.814vw;
 		gap: 1.86vw;
 	}
 
 	.integrationsText {
 		text-shadow: 0 0.083vw 0.166vw rgb(0 0 0 / 10%);
-
 		font-size: 3.256vw;
 	}
 

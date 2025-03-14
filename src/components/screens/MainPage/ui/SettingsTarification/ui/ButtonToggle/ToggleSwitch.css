@@ -1,37 +1,31 @@
 .toggle {
 	position: relative;
-
 	display: flex;
 	align-items: center;
-
 	width: 2.656vw;
 	height: 1.615vw;
 	padding: 0.104vw;
-
 	cursor: pointer;
 	transition: background 0.3s;
-
 	border: none;
 	border-radius: 0.977vw;
 	background: #555;
 }
 
 .toggle.enabled {
-	background: #9092e3;
+	background: #9092E3;
 }
 
 .slider {
 	position: absolute;
 	left: 0.154vw;
-
 	width: 1.406vw;
 	height: 1.406vw;
-
 	transition: transform 0.3s;
-
 	border-radius: 50%;
 	background: white;
-	filter: drop-shadow(0 3px 1px rgb(0 0 0 / 6%))
+	filter:
+		drop-shadow(0 3px 1px rgb(0 0 0 / 6%))
 		drop-shadow(0 3px 8px rgb(0 0 0 / 15%));
 }
 

@@ -1,6 +1,5 @@
 .textCase {
 	color: rgb(255 255 255 / 50%);
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -9,8 +8,7 @@
 }
 
 .textCaseActive {
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;

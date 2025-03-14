@@ -1,34 +1,26 @@
 .wrapper {
 	position: relative;
-
 	display: flex;
 	overflow: hidden;
 	align-items: center;
 	justify-content: center;
-
 	width: 34.896vw;
 	height: 27.24vw;
-
 	border-radius: 1.667vw;
 }
 
 .img {
 	position: absolute;
 	z-index: -10;
-
 	width: 34.896vw;
 	height: 27.24vw;
-
 	background-size: cover;
 }
 
 .text {
 	width: 22.897vw;
-
 	letter-spacing: -0.019vw;
-
-	color: var(--white, #fff);
-
+	color: var(--white, #FFF);
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-weight: 500;
@@ -40,7 +32,6 @@
 	.wrapper {
 		width: 92.558vw;
 		height: 77.442vw;
-
 		border-radius: 7.442vw;
 	}
 
@@ -51,9 +42,7 @@
 
 	.text {
 		width: 75.671vw;
-
 		letter-spacing: -0.14vw;
-
 		font-size: 5.116vw;
 	}
 }

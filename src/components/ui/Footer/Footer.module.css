@@ -3,12 +3,10 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
 	width: 96.667vw;
 	height: 18.333vw;
 	padding: 1.719vw;
-
-	border: 0.052vw solid #2c2c2c;
+	border: 0.052vw solid #2C2C2C;
 	border-radius: 0.833vw;
 	background: rgb(27 26 27 / 80%);
 	gap: 2.5vw;
@@ -18,7 +16,6 @@
 .wrapperFooter {
 	display: flex;
 	flex-direction: column;
-
 	width: 93.229vw;
 	gap: 1.302vw;
 }
@@ -26,7 +23,6 @@
 .line {
 	width: 100%;
 	height: 1px;
-
 	background-color: rgb(255 255 255 / 25%);
 }
 
@@ -37,7 +33,6 @@
 
 .linksText {
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.833vw;
 	font-weight: 400;
@@ -55,7 +50,6 @@
 	flex-shrink: 0;
 	justify-content: center;
 	justify-content: space-between;
-
 	width: 100%;
 	height: 9.896vw;
 }
@@ -68,7 +62,6 @@
 .wrapperConfEmail {
 	display: flex;
 	gap: 10.731vw;
-
 	margin-right: 5.417vw;
 }
 
@@ -85,7 +78,6 @@
 
 .componentText {
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.833vw;
 	font-weight: 400;
@@ -101,7 +93,6 @@
 
 .confTitle {
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 500;
@@ -111,7 +102,6 @@
 
 .confText {
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.833vw;
 	font-weight: 400;
@@ -122,12 +112,10 @@
 @media (width <= 480px) {
 	.wrapper {
 		justify-content: flex-start;
-
 		width: 92.558vw;
 		height: fit-content;
 		padding: 7.442vw;
-
-		border: 0.233vw solid #2c2c2c;
+		border: 0.233vw solid #2C2C2C;
 		border-radius: 3.721vw;
 		gap: 11.163vw;
 		backdrop-filter: blur(2.326vw);
@@ -156,9 +144,7 @@
 	.wrapperContent {
 		flex-direction: column;
 		gap: 11.628vw;
-
 		justify-content: flex-start;
-
 		height: fit-content;
 	}
 
@@ -170,7 +156,6 @@
 	.wrapperConfEmail {
 		display: flex;
 		gap: 3.488vw;
-
 		margin-right: 0;
 	}
 

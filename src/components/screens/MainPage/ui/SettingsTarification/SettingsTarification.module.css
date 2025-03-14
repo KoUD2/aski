@@ -32,9 +32,7 @@
 .title {
 	text-align: center;
 	letter-spacing: -0.026vw;
-
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 3.333vw;
 	font-weight: 500;
@@ -47,12 +45,10 @@
 	align-items: flex-start;
 	flex-direction: column;
 	justify-content: space-between;
-
 	width: 22.917vw;
 	height: 22.604vw;
 	padding: 1.563vw 1.25vw;
-
-	border: 1px solid var(--dark_gray_stroke, #2e2e2e);
+	border: 1px solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 0.625vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 }
@@ -68,19 +64,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 9.375vw;
 	height: 2.708vw;
-
 	cursor: pointer;
 	text-align: center;
-
-	color: var(--white, #fff);
+	color: var(--white, #FFF);
 	border: none;
 	border-radius: 0.625vw;
 	outline: none;
-	background: var(--accent, #0638bd);
-
+	background: var(--accent, #0638BD);
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
 	font-weight: 500;
@@ -97,9 +89,7 @@
 
 .wrapperBigCardHeadText {
 	letter-spacing: -0.019vw;
-
-	color: var(--white, #fff);
-
+	color: var(--white, #FFF);
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-weight: 500;
@@ -111,10 +101,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: fit-content;
 	padding: 0.417vw;
-
 	border-radius: 0.833vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 	gap: 0.625vw;
@@ -125,19 +113,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	height: 2.188vw;
 	padding: 0.417vw 1.25vw;
-
 	cursor: pointer;
 	text-align: center;
-
-	color: #f0f0f0;
+	color: #F0F0F0;
 	border: none;
 	border-radius: 0.625vw;
 	outline: none;
 	background: transparent;
-
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
 	font-weight: 500;
@@ -158,9 +142,7 @@
 .priceText {
 	text-align: center;
 	letter-spacing: -0.019vw;
-
-	color: var(--additional_violet, #9092e3);
-
+	color: var(--additional_violet, #9092E3);
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-weight: 500;
@@ -169,8 +151,7 @@
 }
 
 .pricePeriod {
-	color: var(--white, #fff);
-
+	color: var(--white, #FFF);
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -183,7 +164,6 @@
 	align-content: flex-start;
 	align-items: flex-start;
 	flex-wrap: wrap;
-
 	width: 46.875vw;
 	gap: 1.042vw;
 }
@@ -223,16 +203,13 @@
 		width: 92.558vw;
 		height: 86.047vw;
 		padding: 4.651vw;
-
 		border-radius: 2.791vw;
 	}
 
 	.buttonBought {
 		width: 41.86vw;
 		height: 12.093vw;
-
 		border-radius: 2.791vw;
-
 		font-size: 3.256vw;
 	}
 
@@ -242,14 +219,12 @@
 
 	.wrapperBigCardHeadText {
 		letter-spacing: -0.14vw;
-
 		font-size: 5.116vw;
 	}
 
 	.wrapperButtons {
 		padding: 1.86vw;
 		gap: 2.791vw;
-
 		border-radius: 3.721vw;
 		backdrop-filter: blur(3.488vw);
 	}
@@ -257,9 +232,7 @@
 	.button {
 		height: 9.767vw;
 		padding: 1.86vw 5.581vw;
-
 		border-radius: 2.791vw;
-
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}
@@ -270,7 +243,6 @@
 
 	.priceText {
 		letter-spacing: -0.14vw;
-
 		font-size: 5.116vw;
 	}
 

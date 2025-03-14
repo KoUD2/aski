@@ -3,11 +3,9 @@
 	align-items: flex-start;
 	flex-direction: column;
 	flex-shrink: 0;
-
 	width: 14.896vw;
 	padding: 1.25vw;
-
-	border: 1px solid var(--dark_gray_stroke, #2e2e2e);
+	border: 1px solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 0.625vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 	gap: 1.667vw;
@@ -26,8 +24,7 @@
 }
 
 .text {
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;

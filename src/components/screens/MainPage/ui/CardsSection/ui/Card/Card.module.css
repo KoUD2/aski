@@ -1,12 +1,9 @@
 .cardWrapper {
 	display: flex;
 	flex-direction: column;
-
 	width: 22.917vw;
 	padding: 1.25vw;
-
 	cursor: pointer;
-
 	border: none;
 	border-radius: 0.625vw;
 	outline: none;
@@ -21,9 +18,7 @@
 
 .cardTitle {
 	width: fit-content;
-
 	color: var(--desc-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -33,11 +28,8 @@
 
 .cardDesc {
 	width: 19.417vw;
-
 	text-align: left;
-
 	color: var(--desc-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -59,7 +51,6 @@
 		width: fit-content;
 		height: 50.274vw;
 		padding: 3.023vw;
-
 		border-radius: 2.791vw;
 		gap: 2.791vw;
 	}
@@ -70,14 +61,12 @@
 
 	.cardTitle {
 		text-align: left;
-
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}
 
 	.cardDesc {
 		width: 48.372vw;
-
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}
@@ -85,7 +74,6 @@
 	.activeWrapper {
 		width: 57.674vw;
 		padding: 4.651vw;
-
 		box-shadow: 0 0.93vw 11.628vw 0 rgb(144 146 227 / 20%) inset;
 	}
 }

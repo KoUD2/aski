@@ -3,20 +3,16 @@
 	top: 0;
 	right: 0;
 	left: 50%;
-
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
 	width: 92.558vw;
 	height: 64.884vw;
-
 	transform: translateX(-50%);
-
-	border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.233vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 7.442vw;
-	background: var(--almost_black, #0c0c0c);
+	background: var(--almost_black, #0C0C0C);
 }
 
 .allLinks {
@@ -27,8 +23,7 @@
 }
 
 .link {
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 3.721vw;
 	font-weight: 500;
@@ -40,17 +35,14 @@
 	position: absolute;
 	top: 3.721vw;
 	right: 3.721vw;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 11.163vw;
 	height: 11.163vw;
-
-	border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.233vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 8.997vw;
-	background: var(--almost_black, #0c0c0c);
+	background: var(--almost_black, #0C0C0C);
 }
 
 .closeButtonImage {

@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 	gap: 8.333vw;
 }
 
@@ -10,7 +9,6 @@
 	display: flex;
 	align-items: flex-start;
 	gap: 1.042vw;
-
 	margin-top: -26vw;
 }
 
@@ -29,9 +27,7 @@
 
 	.wrapperHeadInfo {
 		gap: 4.651vw;
-
 		flex-direction: column;
-
 		margin-top: -122vw;
 	}
 }

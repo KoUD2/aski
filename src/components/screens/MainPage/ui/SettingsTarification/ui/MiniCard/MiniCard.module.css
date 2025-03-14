@@ -1,12 +1,10 @@
 .wrapper {
 	display: flex;
 	flex-direction: column;
-
 	width: 22.656vw;
 	height: 10.781vw;
 	padding: 1.25vw;
-
-	border: 1px solid var(--dark_gray_stroke, #2e2e2e);
+	border: 1px solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 0.625vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 	gap: 1.667vw;
@@ -25,8 +23,7 @@
 }
 
 .text {
-	color: var(--white, #fff);
-
+	color: var(--white, #FFF);
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -44,12 +41,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 2.083vw;
 	height: 2.083vw;
-
 	cursor: pointer;
-
 	border: none;
 	border-radius: 26.042vw;
 	outline: none;
@@ -71,18 +65,14 @@
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-
 	width: 3.854vw;
 	height: 2.083vw;
-
 	text-align: center;
-
-	color: var(--white, #fff);
+	color: var(--white, #FFF);
 	border: none;
 	border-radius: 0.417vw;
 	outline: none;
-	background: var(--almost_black, #0c0c0c);
-
+	background: var(--almost_black, #0C0C0C);
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -97,13 +87,11 @@
 		height: 50.465vw;
 		padding: 4.651vw;
 		gap: 7.442vw;
-
 		border-radius: 2.791vw;
 	}
 
 	.wrapperTexts {
 		gap: 8px;
-
 		flex-direction: column;
 	}
 
@@ -123,7 +111,6 @@
 	.button {
 		width: 9.302vw;
 		height: 9.302vw;
-
 		border-radius: 116.279vw;
 	}
 
@@ -135,9 +122,7 @@
 	.input {
 		width: 15.116vw;
 		height: 9.302vw;
-
 		border-radius: 1.86vw;
-
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}

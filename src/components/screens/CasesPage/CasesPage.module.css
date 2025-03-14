@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 	gap: 8.333vw;
 }
 
@@ -11,7 +10,6 @@
 	align-content: flex-start;
 	align-items: flex-start;
 	flex-wrap: wrap;
-
 	width: 71.033vw;
 	margin-top: -25.333vw;
 	gap: 1.042vw;
@@ -25,7 +23,6 @@
 	.wrapperCards {
 		width: 92.558vw;
 		gap: 4.651vw;
-
 		margin-top: -122.333vw;
 	}
 }

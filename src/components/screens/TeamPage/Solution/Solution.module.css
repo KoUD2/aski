@@ -7,9 +7,7 @@
 .title {
 	text-align: center;
 	letter-spacing: -0.026vw;
-
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 3.333vw;
 	font-weight: 500;
@@ -21,7 +19,6 @@
 	display: flex;
 	align-items: flex-start;
 	gap: 1.042vw;
-
 	align-self: stretch;
 }
 
@@ -29,10 +26,8 @@
 	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
-
 	width: 22.917vw;
 	padding: 1.667vw;
-
 	border-radius: 0.625vw;
 	background: var(--card_bg);
 	gap: 0.833vw;
@@ -51,9 +46,7 @@
 
 .cardTitle {
 	letter-spacing: -0.019vw;
-
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-weight: 500;
@@ -63,7 +56,6 @@
 
 .cardText {
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -75,7 +67,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	width: 22.917vw;
 	height: 31.563vw;
 }
@@ -88,10 +79,8 @@
 .minCards {
 	display: flex;
 	flex-direction: column;
-
 	height: 15.313vw;
 	padding: 1.667vw;
-
 	border-radius: 0.625vw;
 	background: var(--card_bg);
 	gap: 1.302vw;
@@ -121,7 +110,6 @@
 		width: 92.558vw;
 		padding: 7.442vw;
 		gap: 0;
-
 		border-radius: 2.791vw;
 	}
 
@@ -136,7 +124,6 @@
 
 	.cardTitle {
 		letter-spacing: -0.14vw;
-
 		font-size: 5.116vw;
 	}
 
@@ -149,7 +136,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-
 		width: 22.917vw;
 		height: 31.563vw;
 	}
@@ -162,10 +148,8 @@
 	.minCards {
 		display: flex;
 		flex-direction: column;
-
 		height: 15.313vw;
 		padding: 1.667vw;
-
 		border-radius: 0.625vw;
 		background: var(--card_bg);
 		gap: 1.302vw;

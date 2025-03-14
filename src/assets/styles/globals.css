@@ -1,7 +1,6 @@
 @import url('./_reset');
 @import url('./_vars');
 @import url('./fonts');
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -16,7 +15,6 @@ body {
 	overflow-x: hidden;
 	align-items: center;
 	flex-direction: column;
-
 	padding-bottom: 1.667vw;
 	gap: 8.333vw;
 }

@@ -1,36 +1,29 @@
 .contentWrapper {
 	position: relative;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 100%;
 	height: 100%;
 }
 
 .wrapper {
 	z-index: -2;
-
 	display: flex;
 	align-items: center;
-
 	width: 70.842vw;
 	height: 39.849vw;
 	padding: 1.107vw;
-
-	border: 0.067vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.067vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 2.132vw;
-	background: var(--almost_black, #0c0c0c);
+	background: var(--almost_black, #0C0C0C);
 }
 
 .circle {
 	position: absolute;
 	z-index: 1;
-
 	width: 29.518vw;
 	height: 29.518vw;
-
 	border-radius: 29.518vw;
 	background: var(--accent);
 	filter: blur(4.612vw);
@@ -39,7 +32,6 @@
 .cardsWrapper {
 	position: relative;
 	z-index: 2;
-
 	display: flex;
 	align-items: center;
 	gap: 0.738vw;
@@ -49,14 +41,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	width: 22.728vw;
 	height: 15.497vw;
 	padding: 1.181vw;
-
-	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.037vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 1.181vw;
-	background: var(--almost_black, #0c0c0c);
+	background: var(--almost_black, #0C0C0C);
 }
 
 .recordingImg {
@@ -67,9 +57,7 @@
 .recordingText {
 	text-align: center;
 	text-align: left;
-
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.59vw;
 	font-weight: 400;
@@ -87,14 +75,12 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	width: 10.368vw;
 	height: 7.379vw;
 	padding: 1.181vw;
-
-	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.037vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 1.181vw;
-	background: var(--almost_black, #0c0c0c);
+	background: var(--almost_black, #0C0C0C);
 }
 
 .aiImg {
@@ -112,7 +98,6 @@
 	z-index: 2;
 	top: 2.713vw;
 	right: 7.007vw;
-
 	display: inline-flex;
 	align-items: center;
 	gap: 0.148vw;
@@ -120,7 +105,6 @@
 
 .balanceText {
 	color: #858585;
-
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
 	font-weight: 500;
@@ -132,12 +116,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 3.579vw;
 	height: 1.254vw;
 	padding: 0.148vw 0.258vw;
-
-	border: 0.037vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.037vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 1.181vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 	gap: 0.369vw;
@@ -145,9 +127,7 @@
 
 .balance {
 	text-align: center;
-
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
 	font-weight: 500;
@@ -160,15 +140,13 @@
 		width: 92.558vw;
 		height: 54.54vw;
 		padding: 1.395vw;
-
-		border: 0.093vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.093vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 2.791vw;
 	}
 
 	.circle {
 		width: 39.472vw;
 		height: 39.472vw;
-
 		border-radius: 100%;
 		filter: blur(6.168vw);
 	}
@@ -181,8 +159,7 @@
 		width: 29.696vw;
 		height: 21.21vw;
 		padding: 1.579vw;
-
-		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.049vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 1.579vw;
 	}
 
@@ -204,8 +181,7 @@
 		width: 13.546vw;
 		height: 10.1vw;
 		padding: 1.579vw;
-
-		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.049vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 1.579vw;
 	}
 
@@ -234,8 +210,7 @@
 		width: 4.676vw;
 		height: 1.717vw;
 		padding: 0.197vw 0.345vw;
-
-		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.049vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 1.579vw;
 		gap: 0.493vw;
 	}

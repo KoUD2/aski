@@ -5,11 +5,9 @@
 	flex: 1 0 0;
 	flex-direction: column;
 	justify-content: space-between;
-
 	width: 22.917vw;
 	padding: 1.667vw;
-
-	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.052vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 1.667vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 }
@@ -24,9 +22,7 @@
 
 .mainTitle {
 	letter-spacing: -0.019vw;
-
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 1.667vw;
 	font-weight: 500;
@@ -36,7 +32,6 @@
 
 .mainDesc {
 	color: var(--white-50, rgb(255 255 255 / 50%));
-
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -56,7 +51,6 @@
 
 	.mainTitle {
 		letter-spacing: -0.14vw;
-
 		font-size: 5.116vw;
 	}
 
@@ -68,8 +62,7 @@
 	.wrapperCard4Card5Card6 {
 		width: 92.558vw;
 		padding: 7.442vw;
-
-		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.233vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 4.651vw;
 	}
 }

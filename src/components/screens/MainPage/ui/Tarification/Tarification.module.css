@@ -16,10 +16,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: fit-content;
 	padding: 0.417vw;
-
 	border-radius: 0.833vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 	gap: 0.625vw;
@@ -29,9 +27,7 @@
 .buttonsHeader {
 	text-align: center;
 	letter-spacing: -0.026vw;
-
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 3.333vw;
 	font-weight: 500;
@@ -43,19 +39,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	height: 2.188vw;
 	padding: 0.417vw 1.25vw;
-
 	cursor: pointer;
 	text-align: center;
-
-	color: #f0f0f0;
+	color: #F0F0F0;
 	border: none;
 	border-radius: 0.625vw;
 	outline: none;
 	background: transparent;
-
 	font-family: 'Inter Tight';
 	font-size: 0.781vw;
 	font-weight: 500;
@@ -76,7 +68,6 @@
 .wrapperStatements {
 	display: flex;
 	flex-direction: column;
-
 	width: 19.01vw;
 	gap: 0.625vw;
 }
@@ -92,8 +83,7 @@
 }
 
 .statementText {
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -113,7 +103,6 @@
 	.wrapperButtons {
 		padding: 1.86vw;
 		gap: 2.791vw;
-
 		border-radius: 3.721vw;
 		backdrop-filter: blur(3.488vw);
 	}
@@ -126,16 +115,13 @@
 	.button {
 		height: 42px;
 		padding: 8px 24px;
-
 		border-radius: 12px;
-
 		font-size: 3.721vw;
 		line-height: 5.581vw;
 	}
 
 	.wrapperCards {
 		gap: 4.651vw;
-
 		flex-direction: column;
 	}
 

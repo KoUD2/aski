@@ -1,9 +1,9 @@
 :root {
-	--main-text: #fff;
+	--main-text: #FFF;
 	--desc-text: rgb(255 255 255 / 50%);
-	--accent: #0638bd;
-	--almost-black: #0c0c0c;
+	--accent: #0638BD;
+	--almost-black: #0C0C0C;
 	--card_bg: rgb(92 92 92 / 15%);
-	--dark_gray_stroke: #2e2e2e;
+	--dark_gray_stroke: #2E2E2E;
 	--gray: #858585;
 }

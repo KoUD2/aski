@@ -2,11 +2,9 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	width: 13.2vw;
 	height: 37.635vw;
 	padding: 1.181vw;
-
 	border: 0.037vw solid var(--dark_gray_stroke);
 	border-radius: 1.181vw;
 	background: var(--almost_black);
@@ -15,7 +13,6 @@
 .wrapperHead {
 	display: flex;
 	flex-direction: column;
-
 	width: 8.228vw;
 	gap: 3.69vw;
 }
@@ -44,7 +41,6 @@
 
 .linkText {
 	color: var(--gray);
-
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
 	font-weight: 500;
@@ -65,8 +61,7 @@
 .avatar {
 	width: 1.771vw;
 	height: 1.771vw;
-
-	border: 0.037vw solid var(--white, #fff);
+	border: 0.037vw solid var(--white, #FFF);
 	border-radius: 34.004px;
 }
 
@@ -79,7 +74,6 @@
 
 .name {
 	color: var(--main-text);
-
 	font-family: 'Inter Tight';
 	font-size: 0.664vw;
 	font-weight: 500;
@@ -89,7 +83,6 @@
 
 .positioning {
 	color: var(--gray);
-
 	font-family: 'Inter Tight';
 	font-size: 0.553vw;
 	font-weight: 500;
@@ -102,8 +95,7 @@
 		width: 17.8vw;
 		height: 51.51vw;
 		padding: 1.579vw;
-
-		border: 0.049vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.049vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 1.579vw;
 	}
 
@@ -144,8 +136,7 @@
 	.avatar {
 		width: 2.368vw;
 		height: 2.368vw;
-
-		border: 0.049vw solid var(--white, #fff);
+		border: 0.049vw solid var(--white, #FFF);
 		border-radius: 2.368vw;
 	}
 

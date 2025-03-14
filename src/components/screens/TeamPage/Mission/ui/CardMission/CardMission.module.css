@@ -2,11 +2,9 @@
 	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
-
 	width: 34.896vw;
 	padding: 1.563vw 1.25vw;
-
-	border: 0.052vw solid var(--dark_gray_stroke, #2e2e2e);
+	border: 0.052vw solid var(--dark_gray_stroke, #2E2E2E);
 	border-radius: 0.625vw;
 	background: var(--card_bg, rgb(92 92 92 / 15%));
 	gap: 1.042vw;
@@ -16,14 +14,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	width: 2.656vw;
 	height: 2.552vw;
 }
 
 .text {
-	color: #fff;
-
+	color: #FFF;
 	font-family: 'Inter Tight';
 	font-size: 0.938vw;
 	font-weight: 400;
@@ -35,8 +31,7 @@
 	.wrapper {
 		width: 92.791vw;
 		padding: 5.581vw;
-
-		border: 0.233vw solid var(--dark_gray_stroke, #2e2e2e);
+		border: 0.233vw solid var(--dark_gray_stroke, #2E2E2E);
 		border-radius: 2.791vw;
 		gap: 4.651vw;
 	}
